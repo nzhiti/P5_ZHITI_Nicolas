@@ -1,0 +1,19 @@
+.header {
+  position: relative;
+  background: $bgcolor;
+  color: $orange;
+  &--logo {
+    & img {
+      height: 80px;
+      @include display-md {
+        height: 150px;
+      }
+    }
+  }
+  &--checkout {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+  }
+}

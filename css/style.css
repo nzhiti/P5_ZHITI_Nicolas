@@ -1,0 +1,88 @@
+a, a:visited, a:focus, a:active, a:hover {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+body {
+  background: #f3e9f1 !important;
+}
+
+html, body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.products--magnet {
+  width: 330px !important;
+  background: #4f3143;
+  border-radius: 28px;
+  color: #f3e9f1;
+  font-weight: bold;
+  box-shadow: 0px 3px 6px #00000085;
+}
+.products--magnet-img > img {
+  width: 330px;
+  border-top-left-radius: 28px;
+  border-top-right-radius: 28px;
+}
+
+.header {
+  position: relative;
+  background: #f3e9f1;
+  color: #cc7f56;
+}
+.header--logo img {
+  height: 80px;
+}
+@media all and (min-width: 768px) {
+  .header--logo img {
+    height: 150px;
+  }
+}
+.header--checkout {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+
+.footer {
+  background: #f3e9f1;
+  color: #cc7f56;
+  font-weight: bold;
+}
+.footer--brand-img img {
+  height: 80px;
+}
+@media all and (min-width: 768px) {
+  .footer--brand-img img {
+    height: 150px;
+  }
+}
+.footer--brand-txt {
+  position: relative;
+}
+.footer--brand-txt > i {
+  position: absolute;
+  top: -5%;
+}
+.footer--copyright {
+  background: #4f3143;
+  color: #cc7f56;
+  font-size: 12px;
+}
+@media all and (min-width: 768px) {
+  .footer--copyright {
+    font-size: 14px;
+  }
+}
+
+.topbar {
+  background: #4f3143;
+  color: orange;
+}
+
+.products {
+  margin: 80px 0 80px 0;
+}
+
+/*# sourceMappingURL=style.css.map */

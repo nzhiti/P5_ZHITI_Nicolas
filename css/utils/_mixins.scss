@@ -1,0 +1,7 @@
+@mixin display-md {
+  @media all and (min-width: 768px) { @content }
+}
+
+@mixin shadow {
+  box-shadow: 0px 3px 6px #00000085;
+}
