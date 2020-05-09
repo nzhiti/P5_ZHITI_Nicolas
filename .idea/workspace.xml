@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c972968-79d2-458d-ad53-063bfdec539a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/assets/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/assets/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/camera.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/furniture.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/teddy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base/_base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/components/_product-magnet.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/create_sass_patern.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/layouts/_container.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/layouts/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/layouts/_form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/layouts/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/layouts/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/layouts/_topbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pages/_index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/utils/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/utils/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/utils/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/oak_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/oak_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/oak_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/oak_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/oak_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/teddy_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/teddy_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/teddy_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/teddy_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/teddy_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/vcam_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/vcam_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/vcam_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/vcam_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/vcam_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Camera.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Furniture.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Teddy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/camera.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/furniture.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/teddy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bcqIWsXAkeDdqUKkBaasAOCf08" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c972968-79d2-458d-ad53-063bfdec539a" name="Default Changelist" comment="" />
+      <created>1588941649054</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588941649054</updated>
+      <workItem from="1588941650903" duration="10784000" />
+      <workItem from="1588967565356" duration="690000" />
+      <workItem from="1588996684798" duration="2113000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="595" y="292" key="EditFileWatcherDialog" timestamp="1588942290520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="595" y="292" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588942290520" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1588942417504">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588942417504" />
+  </component>
+</project>

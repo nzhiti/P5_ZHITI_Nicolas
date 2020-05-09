@@ -1,0 +1,31 @@
+.footer {
+  background: $bgcolor;
+  color: $orange;
+  font-weight: bold;
+
+  &--brand {
+    &-img {
+      & img {
+        height: 80px;
+        @include display-md {
+          height: 150px;
+        }
+      }
+    }
+    &-txt {
+      position: relative;
+      & > i {
+        position: absolute;
+        top: -5%;
+      }
+    }
+  }
+  &--copyright {
+    background: $brown;
+    color: $orange;
+    font-size: 12px;
+    @include display-md {
+      font-size: 14px;
+    }
+  }
+}

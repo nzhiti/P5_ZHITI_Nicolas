@@ -1,0 +1,15 @@
+.products--magnet {
+  width: 330px !important;
+  background: $brown;
+  border-radius: 28px;
+  color: $bgcolor;
+  font-weight: bold;
+  @include shadow;
+  &-img {
+    & > img {
+      width: 330px;
+      border-top-left-radius: 28px;
+      border-top-right-radius: 28px;
+    }
+  }
+}
