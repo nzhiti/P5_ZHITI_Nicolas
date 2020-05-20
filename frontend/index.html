@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <title>Orinoco | L'e-commerce intelligent</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
-
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
           rel="stylesheet">
-    <link rel="stylesheet" href="../backend/node_modules/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="../backend/node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="../backend/node_modules/bootstrap/dist/css/bootstrap-grid.css">
-    <link rel="stylesheet" href="../backend/node_modules/bootstrap/dist/css/bootstrap-reboot.css">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+
 
 </head>
 <body>
@@ -38,27 +39,106 @@
 
 <div class="container">
     <div class="row">
-        <section class="products d-flex flex-wrap justify-content-center align-items-center col-12">
-            <a href="">
-                <div class="products--magnet d-flex flex-wrap">
-                    <div class="products--magnet-img col-12 p-0">
-                        <img src="../backend/images/teddy_5.jpg" alt="image d'ourson en peluche">
+        <section id="content" class="content col-12">
+            <!-- Section pour les oursons en peluche -->
+            <div id="productsTeddies" class="products d-flex flex-wrap justify-content-center align-items-center col-12">
+                <div class="products--header d-flex align-items-center col-12">
+                    <h2 class="col-4 col-lg-2">Ours en peluche</h2>
+                    <hr class="products--header-hr col-6 col-lg-8">
+                    <div id="bearCaret" class="products--header-carets col-1">
+                        <i id="teddiesCaretDown" class="fas fa-angle-down fa-3x" onclick="toggleDiv('teddies')"></i>
+                        <i id="teddiesCaretUp" class="fas fa-angle-up fa-3x" onclick="toggleDiv('teddies')"></i>
                     </div>
-                    <div class="products--magnet-txt col-12 d-flex flex-wrap py-3">
-                        <div class="products--magnet-txt-name col-12 mb-3">
-                            <p>Ours de peluche</p>
-                        </div>
-                        <div class="products--magnet-txt-description col-12 mb-3">
-                            <p>Ours en peluche de qualité supérieure, Made in France !</p>
-                        </div>
-                        <div class="products--magnet-txt-price col-12 d-flex align-items-center mb-3">
-                            <p class="m-0">Prix :</p>
-                            <p class="mx-2 m-0">10</p>
-                            <i class="fas fa-euro-sign"></i>
-                        </div>
-                    </div>
+
                 </div>
-            </a>
+                <a href="">
+                    <div id="teddiesMagnet" class="products--magnet d-flex flex-wrap">
+                        <div class="products--magnet-img col-12 p-0">
+                            <img src="assets/img/teddy_5.jpg" alt="image d'ourson en peluche">
+                        </div>
+                        <div class="products--magnet-txt col-12 d-flex flex-wrap py-3">
+                            <div class="products--magnet-txt-name col-12 mb-3">
+                                <p>Ours de peluche</p>
+                            </div>
+                            <div class="products--magnet-txt-description col-12 mb-3">
+                                <p>Ours en peluche de qualité supérieure, Made in France !</p>
+                            </div>
+                            <div class="products--magnet-txt-price col-12 d-flex align-items-center mb-3">
+                                <p class="m-0">Prix :</p>
+                                <p class="mx-2 m-0">10</p>
+                                <i class="fas fa-euro-sign"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Fin de la section pour les oursons en peluche -->
+            <!-- Section pour les caméras -->
+            <div id="productsCamera" class="products d-flex flex-wrap justify-content-center align-items-center col-12">
+                <div class="products--header d-flex align-items-center col-12">
+                    <h2 class="col-4 col-lg-2">Caméras</h2>
+                    <hr class="products--header-hr col-6 col-lg-8">
+                    <div id="cameraCaret" class="products--header-carets col-1">
+                        <i id="cameraCaretDown" class="fas fa-angle-down fa-3x" onclick="toggleDiv('camera')"></i>
+                        <i id="cameraCaretUp" class="fas fa-angle-up fa-3x" onclick="toggleDiv('camera')"></i>
+                    </div>
+
+                </div>
+                <a href="">
+                    <div id="cameraMagnet" class="products--magnet d-flex flex-wrap">
+                        <div class="products--magnet-img col-12 p-0">
+                            <img src="assets/img/teddy_5.jpg" alt="image d'ourson en peluche">
+                        </div>
+                        <div class="products--magnet-txt col-12 d-flex flex-wrap py-3">
+                            <div class="products--magnet-txt-name col-12 mb-3">
+                                <p>Ours de peluche</p>
+                            </div>
+                            <div class="products--magnet-txt-description col-12 mb-3">
+                                <p>Ours en peluche de qualité supérieure, Made in France !</p>
+                            </div>
+                            <div class="products--magnet-txt-price col-12 d-flex align-items-center mb-3">
+                                <p class="m-0">Prix :</p>
+                                <p class="mx-2 m-0">10</p>
+                                <i class="fas fa-euro-sign"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Fin de la section pour les caméras -->
+            <!-- Section pour les caméras -->
+            <div id="productsFurniture" class="products d-flex flex-wrap justify-content-center align-items-center col-12">
+                <div class="products--header d-flex align-items-center col-12">
+                    <h2 class="col-4 col-lg-2">Meubles</h2>
+                    <hr class="products--header-hr col-6 col-lg-8">
+                    <div id="furnitureCaret" class="products--header-carets col-1">
+                        <i id="furnitureCaretDown" class="fas fa-angle-down fa-3x" onclick="toggleDiv('furniture')"></i>
+                        <i id="furnitureCaretUp" class="fas fa-angle-up fa-3x" onclick="toggleDiv('furniture')"></i>
+                    </div>
+
+                </div>
+                <a href="">
+                    <div id="furnitureMagnet" class="products--magnet d-flex flex-wrap">
+                        <div class="products--magnet-img col-12 p-0">
+                            <img src="assets/img/teddy_5.jpg" alt="image d'ourson en peluche">
+                        </div>
+                        <div class="products--magnet-txt col-12 d-flex flex-wrap py-3">
+                            <div class="products--magnet-txt-name col-12 mb-3">
+                                <p>Ours de peluche</p>
+                            </div>
+                            <div class="products--magnet-txt-description col-12 mb-3">
+                                <p>Ours en peluche de qualité supérieure, Made in France !</p>
+                            </div>
+                            <div class="products--magnet-txt-price col-12 d-flex align-items-center mb-3">
+                                <p class="m-0">Prix :</p>
+                                <p class="mx-2 m-0">10</p>
+                                <i class="fas fa-euro-sign"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Fin de la section pour les caméras -->
         </section>
     </div>
 </div>
@@ -86,9 +166,8 @@
         <p class="m-0 my-1"> © Développé par ZHITI Nicolas</p>
     </div>
 </footer>
-<script src="/polyfill.bundle.js"></script>
-<script src="/app.bundle.js"></script>
-<script src="assets/js/index.js"></script>
-<script src="assets/js/app.js"></script>
+<script type="text/javascript" src="assets/js/index.js"></script>
+<script type="module" src="assets/js/ApiService.js"></script>
+<script type="module" src="assets/js/ProductsService.js"></script>
 </body>
 </html>

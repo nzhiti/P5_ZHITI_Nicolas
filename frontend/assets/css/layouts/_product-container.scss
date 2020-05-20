@@ -1,0 +1,32 @@
+.products {
+  color: $brown;
+  border-radius: 20px;
+  background: darken($bgcolor , 5%);
+  padding: 15px;
+  display: flex;
+  &--header {
+
+    & > h2 {
+      font-weight: bolder;
+    }
+    &-hr {
+      position: relative;
+      height: 2px;
+      background: $orange;
+      opacity: 0.7;
+      @include shadow($orange);
+    }
+  }
+}
+
+#teddiesCaretDown {
+  display: none;
+}
+
+#cameraCaretDown {
+  display: none;
+}
+
+#furnitureCaretDown {
+  display: none;
+}

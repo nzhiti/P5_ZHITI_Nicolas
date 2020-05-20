@@ -45,6 +45,36 @@ html, body {
   right: 0;
 }
 
+.products {
+  color: #4f3143;
+  border-radius: 20px;
+  background: #ead9e7;
+  padding: 15px;
+  display: flex;
+}
+.products--header > h2 {
+  font-weight: bolder;
+}
+.products--header-hr {
+  position: relative;
+  height: 2px;
+  background: #cc7f56;
+  opacity: 0.7;
+  box-shadow: 0px 3px 6px #cc7f56;
+}
+
+#teddiesCaretDown {
+  display: none;
+}
+
+#cameraCaretDown {
+  display: none;
+}
+
+#furnitureCaretDown {
+  display: none;
+}
+
 .footer {
   background: #f3e9f1;
   color: #cc7f56;
@@ -57,13 +87,6 @@ html, body {
   .footer--brand-img img {
     height: 150px;
   }
-}
-.footer--brand-txt {
-  position: relative;
-}
-.footer--brand-txt > i {
-  position: absolute;
-  top: -5%;
 }
 .footer--copyright {
   background: #4f3143;

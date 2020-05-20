@@ -4,7 +4,7 @@
   border-radius: 28px;
   color: $bgcolor;
   font-weight: bold;
-  @include shadow;
+  @include shadow($shadow-color);
   &-img {
     & > img {
       width: 330px;
