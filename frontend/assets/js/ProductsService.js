@@ -2,13 +2,29 @@ import ApiService from "./ApiService.js";
 
 class ProductsService {
     getTeddies() {
-        return ApiService.getProducts(teddies);
+        try {
+            return ApiService.getProducts('teddies');
+        } catch (error) {
+            console.log(error);
+        }
     }
     getCameras() {
-        return ApiService.getProducts(cameras)
+        try {
+            return ApiService.getProducts('cameras');
+        } catch (error) {
+            console.log(error);
+        }
     }
     getFurnitures() {
-        return ApiService.getProducts(furnitures);
+        try {
+            return ApiService.getProducts('furnitures');
+        } catch (error) {
+            console.log(error);
+        }
+    }
+    innerHtml(parent, element) {
+        let htmlParent = document.getElementById(parent);
+        htmlParent.innerHTML = element;
     }
 }
 
