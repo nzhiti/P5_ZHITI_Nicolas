@@ -5,16 +5,24 @@
   padding: 15px;
   display: flex;
   &--header {
-
     & > h2 {
+      width: 20%;
+      font-size: 20px;
+      @include display-md {
+        font-size: 24px;
+      }
       font-weight: bolder;
     }
     &-hr {
       position: relative;
       height: 2px;
+      width: 60%;
       background: $orange;
       opacity: 0.7;
       @include shadow($orange);
+    }
+    &-carets {
+      width: 5%;
     }
   }
 }
@@ -23,10 +31,10 @@
   display: none;
 }
 
-#cameraCaretDown {
+#camerasCaretDown {
   display: none;
 }
 
-#furnitureCaretDown {
+#furnituresCaretDown {
   display: none;
 }

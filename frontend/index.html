@@ -43,46 +43,30 @@
             <!-- Section pour les oursons en peluche -->
             <div id="productsTeddies" class="products d-flex flex-wrap justify-content-center align-items-center col-12">
                 <div class="products--header d-flex align-items-center col-12">
-                    <h2 class="col-4 col-lg-2">Ours en peluche</h2>
-                    <hr class="products--header-hr col-6 col-lg-8">
+                    <h2 class="col-3">Ours en peluche</h2>
+                    <hr class="products--header-hr col-6 col-md-7 col-xl-8">
                     <div id="bearCaret" class="products--header-carets col-1">
                         <i id="teddiesCaretDown" class="fas fa-angle-down fa-3x" onclick="toggleDiv('teddies')"></i>
                         <i id="teddiesCaretUp" class="fas fa-angle-up fa-3x" onclick="toggleDiv('teddies')"></i>
                     </div>
                 </div>
-                <div id="teddiesMagnet" class="products--magnet d-flex flex-wrap">
+                <div id="teddiesMagnet" class="d-flex flex-wrap justify-content-around align-items-center">
                 </div>
             </div>
             <!-- Fin de la section pour les oursons en peluche -->
             <!-- Section pour les caméras -->
             <div id="productsCamera" class="products d-flex flex-wrap justify-content-center align-items-center col-12">
                 <div class="products--header d-flex align-items-center col-12">
-                    <h2 class="col-4 col-lg-2">Caméras</h2>
-                    <hr class="products--header-hr col-6 col-lg-8">
-                    <div id="cameraCaret" class="products--header-carets col-1">
-                        <i id="cameraCaretDown" class="fas fa-angle-down fa-3x" onclick="toggleDiv('camera')"></i>
-                        <i id="cameraCaretUp" class="fas fa-angle-up fa-3x" onclick="toggleDiv('camera')"></i>
+                    <h2 class="col-3">Caméras</h2>
+                    <hr class="products--header-hr col-6 col-md-7 col-xl-8">
+                    <div id="camerasCaret" class="products--header-carets col-1">
+                        <i id="camerasCaretDown" class="fas fa-angle-down fa-3x" onclick="toggleDiv('cameras')"></i>
+                        <i id="camerasCaretUp" class="fas fa-angle-up fa-3x" onclick="toggleDiv('cameras')"></i>
                     </div>
 
                 </div>
                 <a href="">
-                    <div id="cameraMagnet" class="products--magnet d-flex flex-wrap">
-                        <div class="products--magnet-img col-12 p-0">
-                            <img src="assets/img/teddy_5.jpg" alt="image d'ourson en peluche">
-                        </div>
-                        <div class="products--magnet-txt col-12 d-flex flex-wrap py-3">
-                            <div class="products--magnet-txt-name col-12 mb-3">
-                                <p>Ours de peluche</p>
-                            </div>
-                            <div class="products--magnet-txt-description col-12 mb-3">
-                                <p>Ours en peluche de qualité supérieure, Made in France !</p>
-                            </div>
-                            <div class="products--magnet-txt-price col-12 d-flex align-items-center mb-3">
-                                <p class="m-0">Prix :</p>
-                                <p class="mx-2 m-0">10</p>
-                                <i class="fas fa-euro-sign"></i>
-                            </div>
-                        </div>
+                    <div id="camerasMagnet" class="d-flex flex-wrap justify-content-around align-items-center">
                     </div>
                 </a>
             </div>
@@ -90,32 +74,16 @@
             <!-- Section pour les caméras -->
             <div id="productsFurniture" class="products d-flex flex-wrap justify-content-center align-items-center col-12">
                 <div class="products--header d-flex align-items-center col-12">
-                    <h2 class="col-4 col-lg-2">Meubles</h2>
-                    <hr class="products--header-hr col-6 col-lg-8">
+                    <h2 class="col-3">Meubles</h2>
+                    <hr class="products--header-hr col-6 col-md-7 col-xl-8">
                     <div id="furnitureCaret" class="products--header-carets col-1">
-                        <i id="furnitureCaretDown" class="fas fa-angle-down fa-3x" onclick="toggleDiv('furniture')"></i>
-                        <i id="furnitureCaretUp" class="fas fa-angle-up fa-3x" onclick="toggleDiv('furniture')"></i>
+                        <i id="furnituresCaretDown" class="fas fa-angle-down fa-3x" onclick="toggleDiv('furnitures')"></i>
+                        <i id="furnituresCaretUp" class="fas fa-angle-up fa-3x" onclick="toggleDiv('furnitures')"></i>
                     </div>
 
                 </div>
                 <a href="">
-                    <div id="furnitureMagnet" class="products--magnet d-flex flex-wrap">
-                        <div class="products--magnet-img col-12 p-0">
-                            <img src="assets/img/teddy_5.jpg" alt="image d'ourson en peluche">
-                        </div>
-                        <div class="products--magnet-txt col-12 d-flex flex-wrap py-3">
-                            <div class="products--magnet-txt-name col-12 mb-3">
-                                <p>Ours de peluche</p>
-                            </div>
-                            <div class="products--magnet-txt-description col-12 mb-3">
-                                <p>Ours en peluche de qualité supérieure, Made in France !</p>
-                            </div>
-                            <div class="products--magnet-txt-price col-12 d-flex align-items-center mb-3">
-                                <p class="m-0">Prix :</p>
-                                <p class="mx-2 m-0">10</p>
-                                <i class="fas fa-euro-sign"></i>
-                            </div>
-                        </div>
+                    <div id="furnituresMagnet" class="d-flex flex-wrap justify-content-around align-items-center">
                     </div>
                 </a>
             </div>
@@ -150,6 +118,8 @@
 <script type="text/javascript" src="assets/js/index.js"></script>
 <script type="module" src="assets/js/ApiService.js"></script>
 <script type="module" src="assets/js/ProductsService.js"></script>
-<script type="module" src="assets/js/ProductComponent.js"></script>
+<script type="module" src="assets/js/products/teddies.js"></script>
+<script type="module" src="assets/js/products/cameras.js"></script>
+<script type="module" src="assets/js/products/furnitures.js"></script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 .products--magnet {
-  width: 330px !important;
+  width: 300px !important;
   background: $brown;
   border-radius: 28px;
   color: $bgcolor;
@@ -7,9 +7,36 @@
   @include shadow($shadow-color);
   &-img {
     & > img {
-      width: 330px;
+      width: 300px !important;
+      height: 220px;
       border-top-left-radius: 28px;
       border-top-right-radius: 28px;
+    }
+  }
+  &-txt {
+    &-colors {
+      & > div {
+        min-width: 15px;
+        min-height: 15px;
+        border: 1px solid white;
+        border-radius: 10px;
+      }
+    }
+    &-lenses {
+      &-single {
+        background: lighten($brown, 10%);
+        padding: 3px;
+        margin: 0 0 3px 2px;
+        border-radius: 10px;
+      }
+    }
+    &-varnish {
+      & > div {
+        min-width: 15px;
+        min-height: 15px;
+        border: 1px solid white;
+        border-radius: 10px;
+      }
     }
   }
 }

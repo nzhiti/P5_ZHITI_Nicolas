@@ -17,14 +17,14 @@ class ProductsService {
     }
     getFurnitures() {
         try {
-            return ApiService.getProducts('furnitures');
+            return ApiService.getProducts('furniture');
         } catch (error) {
             console.log(error);
         }
     }
-    innerHtml(parent, element) {
-        let htmlParent = document.getElementById(parent);
-        htmlParent.innerHTML = element;
+    innerHtml(targetDivId, content) {
+        let targetDiv = document.getElementById(targetDivId);
+        targetDiv.innerHTML += content;
     }
 }
 
