@@ -5,7 +5,7 @@
       <paths name="Lindow">
         <serverdata>
           <mappings>
-            <mapping deploy="/dev/OP-Projects/5" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/dev/p5" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

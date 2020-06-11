@@ -1,11 +1,19 @@
 .products--magnet {
   width: 300px !important;
+  height: 582px;
   background: $brown;
   border-radius: 28px;
   color: $bgcolor;
   font-weight: bold;
+  position: relative;
+  cursor: pointer;
+  &-detail {
+    display: none;
+  }
   @include shadow($shadow-color);
   &-img {
+    height: 220px;
+    max-height: 220px;
     & > img {
       width: 300px !important;
       height: 220px;
@@ -14,6 +22,16 @@
     }
   }
   &-txt {
+    &-name {
+      color: $orange;
+      font-size: 20px;
+      @include display-md {
+        font-size: 22px;
+      }
+    }
+    &-price {
+      color: $purple;
+    }
     &-colors {
       & > div {
         min-width: 15px;
@@ -39,4 +57,29 @@
       }
     }
   }
+
+  &-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 28px;
+    background: $orange;
+    opacity: 0;
+    z-index: 99;
+    transition: opacity ease-in-out 300ms;
+    &:hover {
+      opacity: 0.7;
+    }
+    & > i {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 0);
+      top: 50%;
+    }
+  }
+
 }

@@ -2,55 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c972968-79d2-458d-ad53-063bfdec539a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/query.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/furniture.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/teddy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/images/oak_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/images/oak_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/images/oak_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/images/oak_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/images/oak_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/images/teddy_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/images/teddy_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/images/teddy_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/images/teddy_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/images/teddy_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/images/vcam_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/images/vcam_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/images/vcam_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/images/vcam_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/images/vcam_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/Camera.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/Furniture.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/Teddy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/css/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/components/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/css/components/_flip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/components/_flip.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/css/components/_product-magnet.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/components/_product-magnet.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/css/components/_product_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/components/_product_form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/css/components/_select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/components/_select.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/css/pages/_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/pages/_all.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/ApiService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/ApiService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/CartService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/CartService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/ProductsService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/ProductsService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/products/cameras.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/products/cameras.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/products/furnitures.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/products/furnitures.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/products/productDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/products/productDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/products/teddies.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/products/teddies.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/JWDP5/controllers/furniture.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/JWDP5/controllers/teddy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/JWDP5/images/oak_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/JWDP5/images/oak_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/JWDP5/images/oak_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/JWDP5/images/oak_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/JWDP5/images/oak_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/JWDP5/images/teddy_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/JWDP5/images/teddy_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/JWDP5/images/teddy_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/JWDP5/images/teddy_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/JWDP5/images/teddy_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/JWDP5/images/vcam_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/JWDP5/images/vcam_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/JWDP5/images/vcam_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/JWDP5/images/vcam_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/JWDP5/images/vcam_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/JWDP5/models/Camera.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/JWDP5/models/Furniture.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/JWDP5/models/Teddy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +61,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Mes Documents\Projets Openclassrooms\Projet 5\Site\frontend\assets\js" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -101,7 +79,16 @@
       <workItem from="1588941650903" duration="10784000" />
       <workItem from="1588967565356" duration="690000" />
       <workItem from="1588996684798" duration="3981000" />
-      <workItem from="1589002595736" duration="1037000" />
+      <workItem from="1589002595736" duration="2002000" />
+      <workItem from="1589004758087" duration="4856000" />
+      <workItem from="1589110332626" duration="5404000" />
+      <workItem from="1589217110393" duration="7000" />
+      <workItem from="1589978169185" duration="26299000" />
+      <workItem from="1590068860637" duration="32602000" />
+      <workItem from="1590831062565" duration="302000" />
+      <workItem from="1591796790574" duration="47000" />
+      <workItem from="1591863757726" duration="2463000" />
+      <workItem from="1591867290707" duration="25698000" />
     </task>
     <servers />
   </component>
@@ -109,41 +96,53 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Deployment" timestamp="1589002417881">
+    <state x="552" y="178" key="#Deployment" timestamp="1591867188060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1589002417881" />
-    <state x="552" y="178" key="#Options" timestamp="1589002627947">
+    <state x="552" y="178" key="#Deployment/0.0.1920.1040@0.0.1920.1040" timestamp="1591867188060" />
+    <state x="552" y="178" key="#Options" timestamp="1591867162469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Options/0.0.1920.1040@0.0.1920.1040" timestamp="1589002627947" />
+    <state x="552" y="178" key="#Options/0.0.1920.1040@0.0.1920.1040" timestamp="1591867162469" />
     <state x="595" y="292" key="EditFileWatcherDialog" timestamp="1588942290520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="595" y="292" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588942290520" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1589002370782">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1591867116403">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589002370782" />
-    <state width="1899" height="261" key="GridCell.Tab.0.bottom" timestamp="1589003674685">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591867116403" />
+    <state width="1899" height="261" key="GridCell.Tab.0.bottom" timestamp="1589004749568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589003674685" />
-    <state width="1899" height="261" key="GridCell.Tab.0.center" timestamp="1589003674685">
+    <state width="1899" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589004749568" />
+    <state width="1899" height="261" key="GridCell.Tab.0.center" timestamp="1589004749568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589003674685" />
-    <state width="1899" height="261" key="GridCell.Tab.0.left" timestamp="1589003674685">
+    <state width="1899" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589004749568" />
+    <state width="1899" height="261" key="GridCell.Tab.0.left" timestamp="1589004749568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589003674685" />
-    <state width="1899" height="261" key="GridCell.Tab.0.right" timestamp="1589003674685">
+    <state width="1899" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589004749568" />
+    <state width="1899" height="261" key="GridCell.Tab.0.right" timestamp="1589004749568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589003674685" />
-    <state x="806" y="170" key="ftp.server.browser" timestamp="1589002406952">
+    <state width="1899" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589004749568" />
+    <state x="581" y="201" width="758" height="638" key="find.popup" timestamp="1591869711551">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="806" y="170" key="ftp.server.browser/0.0.1920.1040@0.0.1920.1040" timestamp="1589002406952" />
+    <state x="581" y="201" width="758" height="638" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591869711551" />
+    <state x="806" y="170" key="ftp.server.browser" timestamp="1591867146716">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="806" y="170" key="ftp.server.browser/0.0.1920.1040@0.0.1920.1040" timestamp="1591867146716" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1591867023953">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591867023953" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589990306040">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589990306040" />
   </component>
 </project>

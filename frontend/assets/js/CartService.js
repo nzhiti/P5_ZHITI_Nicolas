@@ -1,13 +1,14 @@
 class CartService {
-    addToCart(id, option) {
+
+    addToCart(id) {
         const cart = [];
         let product = {
             'id': id,
-            'option': option,
         };
         cart.push(product);
+        console.log(cart);
         return cart;
     }
 }
 
-export default new ApiService()
+export default new CartService()

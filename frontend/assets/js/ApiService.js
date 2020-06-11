@@ -5,13 +5,26 @@ class ApiService {
      * @returns {Promise<void>}
      */
     async getProducts(productName){
-        const url = 'http://lindow.fr/api/'+productName;
+        const url = 'https://lindow.fr/api/'+productName;
         let data = await (await (fetch(url)
                 .then(response => {
                     return response.json();
                 })
                 .catch(error => {
-                    console.log('Error: ', error)
+                    console.log('Error: ' + error)
+                })
+        ));
+        return data
+    }
+
+    async getSingleProduct(productName , productId) {
+        const url = 'https://lindow.fr/api/'+productName+productId;
+        let data = await (await (fetch(url)
+                .then(response => {
+                    return response.json();
+                })
+                .catch(error => {
+                    console.log('Error :' + error)
                 })
         ));
         return data

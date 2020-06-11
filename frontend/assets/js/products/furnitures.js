@@ -5,7 +5,6 @@ function iterateFurnitures() {
         .then(function (data) {
             for (let furniture of data) {
                 drawFurnitures(furniture);
-                console.log(furniture);
             }
         })
         .catch(function (error) {
@@ -32,12 +31,13 @@ function drawFurnitures(furniture) {
 
     }
     let htmlContent =
-        '<a href="" class="my-4 mx-2">' +
-        '<div class="products--magnet d-flex flex-wrap">' +
+        '<div class="my-4 mx-2" onclick="toggleDetailDiv(\'furnitures\', \'s'+furniture._id+'\')">' +
+        '<div id="furnitures'+furniture._id+'-magnet" class="products--magnet d-flex flex-wrap">' +
+        '<div class="products--magnet-overlay mr-auto"><i class="fas fa-cart-plus fa-5x"></i></div>' +
         '<div class="products--magnet-img col-12 p-0">' +
         '<img src="' + furniture.imageUrl + '" alt="image d\'ourson en peluche">' +
         '</div>' +
-        '<div class="products--magnet-txt col-12 d-flex flex-wrap py-3">' +
+        '<div id="furnituress'+furniture._id+'" class="products--magnet-txt col-12 d-flex flex-wrap py-3">' +
         '<div class="products--magnet-txt-name col-12 mb-3">' +
         '<p>' + furniture.name + '</p>' +
         '</div>' +
@@ -54,7 +54,7 @@ function drawFurnitures(furniture) {
         '</div>' +
         '</div>' +
         '</div>' +
-        '</a>';
+        '</div>';
     ProductsService.innerHtml('furnituresMagnet', htmlContent);
 }
 

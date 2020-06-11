@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="c82e5166-98c1-4807-89c5-a42d1f2346dc" name="Lindow" url="http://lindow.fr">
-        <fileTransfer host="lindow.fr" port="2202" privateKey="E:\Mes Documents\Administrateur réseaux\SSH KEY\Lindow\private.ppk" rootFolder="/var/www/html" accessType="SFTP" keyPair="true">
+        <fileTransfer host="lindow.fr" port="2202" privateKey="E:\Mes Documents\Administrateur réseaux\SSH KEY\Lindow\private.ppk" rootFolder="/var/www/html/" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

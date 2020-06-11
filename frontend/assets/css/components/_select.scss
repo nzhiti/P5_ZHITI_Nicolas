@@ -1,0 +1,43 @@
+.select {
+  width: 60%;
+  position: relative;
+  text-align: center;
+
+  & > select {
+    appearance: none;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    cursor: pointer;
+    border: 3px solid $orange;
+    border-radius: 28px;
+    padding: 0 0 0 10px;
+    color: $purple;
+  }
+
+  &:after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Font Awesome 5 Free";
+    content: '\f338';
+    height: 100%;
+    width: 20px;
+    color: $brown;
+    border-radius: 28px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background: $orange;
+    pointer-events: none;
+  }
+
+
+}

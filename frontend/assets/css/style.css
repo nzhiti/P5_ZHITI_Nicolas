@@ -1,3 +1,4 @@
+@charset "UTF-8";
 a, a:visited, a:focus, a:active, a:hover {
   color: inherit !important;
   text-decoration: none !important;
@@ -11,19 +12,65 @@ html, body {
   font-family: "Quicksand", sans-serif;
 }
 
+.cart-btn {
+  background: transparent;
+  color: #9d66d6;
+  border: none;
+  transition: all ease-in-out 300ms;
+}
+.cart-btn:hover {
+  transform: scale(1.5);
+  opacity: 0.6;
+}
+
+.cameraForm > input {
+  position: relative;
+}
+.cameraForm > input:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: red;
+}
+
 .products--magnet {
   width: 300px !important;
+  height: 582px;
   background: #4f3143;
   border-radius: 28px;
   color: #f3e9f1;
   font-weight: bold;
+  position: relative;
+  cursor: pointer;
   box-shadow: 0px 3px 6px #00000085;
+}
+.products--magnet-detail {
+  display: none;
+}
+.products--magnet-img {
+  height: 220px;
+  max-height: 220px;
 }
 .products--magnet-img > img {
   width: 300px !important;
   height: 220px;
   border-top-left-radius: 28px;
   border-top-right-radius: 28px;
+}
+.products--magnet-txt-name {
+  color: #cc7f56;
+  font-size: 20px;
+}
+@media all and (min-width: 768px) {
+  .products--magnet-txt-name {
+    font-size: 22px;
+  }
+}
+.products--magnet-txt-price {
+  color: #9d66d6;
 }
 .products--magnet-txt-colors > div {
   min-width: 15px;
@@ -42,6 +89,113 @@ html, body {
   min-height: 15px;
   border: 1px solid white;
   border-radius: 10px;
+}
+.products--magnet-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 28px;
+  background: #cc7f56;
+  opacity: 0;
+  z-index: 99;
+  transition: opacity ease-in-out 300ms;
+}
+.products--magnet-overlay:hover {
+  opacity: 0.7;
+}
+.products--magnet-overlay > i {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 50%;
+}
+
+/* entire container, keeps perspective */
+.flip-container {
+  perspective: 1000px;
+}
+
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+  width: 320px;
+  height: 480px;
+}
+
+/* flip speed goes here */
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+  transform: rotateY(180deg);
+}
+
+.select {
+  width: 60%;
+  position: relative;
+  text-align: center;
+}
+.select > select {
+  appearance: none;
+  -moz-appearance: none;
+  /* Firefox */
+  -webkit-appearance: none;
+  /* Safari and Chrome */
+  cursor: pointer;
+  border: 3px solid #cc7f56;
+  border-radius: 28px;
+  padding: 0 0 0 10px;
+  color: #9d66d6;
+}
+.select:after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Font Awesome 5 Free";
+  content: "";
+  height: 100%;
+  width: 20px;
+  color: #4f3143;
+  border-radius: 28px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  background: #cc7f56;
+  pointer-events: none;
 }
 
 .header {
@@ -136,6 +290,10 @@ html, body {
 
 .products {
   margin: 80px 0 80px 0;
+}
+
+.orange {
+  color: #cc7f56;
 }
 
 /*# sourceMappingURL=style.css.map */

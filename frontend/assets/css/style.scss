@@ -4,7 +4,10 @@
 @import "./base/base";
 @import "./base/typography";
 @import "./components/buttons";
+@import "./components/product_form";
 @import "./components/product-magnet";
+@import "./components/flip";
+@import "./components/select";
 @import "./layouts/header";
 @import "./layouts/nav";
 @import "./layouts/container";
@@ -13,4 +16,5 @@
 @import "./layouts/footer";
 @import "./layouts/topbar";
 @import "./pages/index";
+@import "./pages/all";
 

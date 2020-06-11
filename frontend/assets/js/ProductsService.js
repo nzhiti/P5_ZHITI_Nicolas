@@ -8,6 +8,13 @@ class ProductsService {
             console.log(error);
         }
     }
+    getSingleTeddy(productName, productId) {
+        try {
+            return ApiService.getSingleProduct(productName, productId);
+        } catch (error) {
+            console.log(error);
+        }
+    }
     getCameras() {
         try {
             return ApiService.getProducts('cameras');

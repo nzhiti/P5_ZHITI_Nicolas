@@ -36,7 +36,7 @@ module.exports = {
 
         host: 'localhost',
         publicPath: '/',
-        public : 'https//lindow.fr/',
+        public : 'https://lindow.fr/',
         allowedHosts: [
             'lindow.fr',
         ],

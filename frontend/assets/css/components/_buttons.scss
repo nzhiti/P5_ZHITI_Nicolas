@@ -1,0 +1,10 @@
+.cart-btn {
+  background: transparent;
+  color: $purple;
+  border: none;
+  transition: all ease-in-out 300ms;
+  &:hover {
+    transform: scale(1.5);
+    opacity: 0.6;
+  }
+}

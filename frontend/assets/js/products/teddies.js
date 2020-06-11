@@ -28,12 +28,13 @@ function drawTeddies(teddie) {
 
     }
     let htmlContent =
-        '<a href="" class="my-4 mx-2">' +
+        '<div id="teddiesA" class="my-4 mx-2" onclick="toggleDetailDiv(\'teddies\', \'s'+teddie._id+'\')">' +
         '<div class="products--magnet d-flex flex-wrap">' +
+        '<div class="products--magnet-overlay mr-auto"><i class="fas fa-cart-plus fa-5x"></i></div>' +
         '<div class="products--magnet-img col-12 p-0">' +
         '<img src="' + teddie.imageUrl + '" alt="image d\'ourson en peluche">' +
         '</div>' +
-        '<div class="products--magnet-txt col-12 d-flex flex-wrap py-3">' +
+        '<div id="teddiess'+teddie._id+'" class="products--magnet-txt col-12 d-flex flex-wrap py-3">' +
         '<div class="products--magnet-txt-name col-12 mb-3">' +
         '<p>' + teddie.name + '</p>' +
         '</div>' +
@@ -50,7 +51,7 @@ function drawTeddies(teddie) {
         '</div>' +
         '</div>' +
         '</div>' +
-        '</a>';
+        '</div>';
     ProductsService.innerHtml('teddiesMagnet', htmlContent);
 }
 
