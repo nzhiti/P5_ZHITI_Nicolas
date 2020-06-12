@@ -8,30 +8,25 @@ class ProductsService {
             console.log(error);
         }
     }
-    getSingleTeddy(productName, productId) {
-        try {
-            return ApiService.getSingleProduct(productName, productId);
-        } catch (error) {
-            console.log(error);
-        }
-    }
+
     getCameras() {
         try {
-            return ApiService.getProducts('cameras');
+            return ApiService.getProducts('cameras')
         } catch (error) {
             console.log(error);
         }
     }
     getFurnitures() {
         try {
-            return ApiService.getProducts('furniture');
+            return ApiService.getProducts('furniture')
         } catch (error) {
             console.log(error);
         }
     }
-    innerHtml(targetDivId, content) {
-        let targetDiv = document.getElementById(targetDivId);
-        targetDiv.innerHTML += content;
+    setAttributes(el, attrs) {
+        for(var key in attrs) {
+            el.setAttribute(key, attrs[key]);
+        }
     }
 }
 

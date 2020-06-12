@@ -3,7 +3,7 @@
  * @param productName correspond au nom du produit affiché (bear / camera / furniture )
  */
 function toggleDiv(productName) {
-    let targetDiv = document.getElementById(productName + 'Magnet');
+    let targetDiv = document.getElementById(productName + 'Div');
     let caretUp = document.getElementById(productName + 'CaretUp');
     let caretDown = document.getElementById(productName + 'CaretDown');
     targetDiv.classList.toggle('d-none');
@@ -20,21 +20,12 @@ function toggleDiv(productName) {
 function toggleDetailDiv(productName , id) {
     let productDetailDiv = document.getElementById(productName + id);
     let productMagnet = document.getElementById(productName + id + '-magnet');
-    let productMagnetDetailHide = document.getElementById('products--magnet-detail-hide-'+id);
-    let productMagnetChild = productMagnet.firstChild;
-    let hidenInput = document.getElementById('hiden_input');
-    hidenInput.value = 1;
+    let productMagnetDetailHide = document.getElementById('Products--magnet-detail-hide-'+id);
     productDetailDiv.classList.remove('d-flex');
     productDetailDiv.classList.add('d-none');
-    productMagnetChild.style.display = 'none';
     productMagnetDetailHide.classList.remove('d-none');
     productMagnetDetailHide.classList.add('d-flex');
-    console.log(hidenInput.value);
 
-/*    const formC = document.getElementById('form'+id);
-    formC.addEventListener('submit' , (e) => {
-        e.preventDefault();
-    });*/
 }
 
 /**
@@ -45,7 +36,7 @@ function toggleProductDiv(productName , id) {
     hidenInput.value = 0;
     let productDetailDiv = document.getElementById(productName + id);
     let productMagnet = document.getElementById(productName + id + '-magnet');
-    let productMagnetDetailHide = document.getElementById('products--magnet-detail-hide-'+id);
+    let productMagnetDetailHide = document.getElementById('Products--magnet-detail-hide-'+id);
     let productMagnetChild = productMagnet.firstChild;
     productDetailDiv.classList.remove('d-none');
     productDetailDiv.classList.add('d-flex');

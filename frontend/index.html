@@ -50,7 +50,44 @@
                         <i id="teddiesCaretUp" class="fas fa-angle-up fa-3x" onclick="toggleDiv('teddies')"></i>
                     </div>
                 </div>
-                <div id="teddiesMagnet" class="d-flex flex-wrap justify-content-around align-items-center">
+                <div id="teddiesDiv" class="d-flex flex-wrap justify-content-around">
+                    <template id="teddies">
+                        <div class="teddyMagnet products--magnet d-flex flex-wrap my-4 mx-2">
+                            <div class="teddyOverlay products--magnet-overlay mr-auto"><i class="fas fa-cart-plus fa-5x"></i>
+                            </div>
+                            <div class="products--magnet-img col-12 p-0">
+                                <img class="teddyImg" src=" " alt="image d'ourson en peluche">
+                            </div>
+                            <div class="teddyDetailDiv products--magnet-txt col-12 d-flex flex-wrap py-3">
+                                <div class="teddyName products--magnet-txt-name col-12 mb-3">
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="teddyColor d-flex justify-content-start align-items-center products--magnet-txt-colors">
+                                        Couleurs :
+                                    </div>
+                                </div>
+                                <div class="teddyDescription products--magnet-txt-description d-flex flex-wrap col-12 mb-3">
+                                </div>
+                                <div class="teddyPrice products--magnet-txt-price col-12 d-flex align-items-center mb-3">
+
+                                </div>
+                            </div>
+                            <div class="teddyCartDiv col-12 d-none flex-wrap align-content-start py-3">
+                                <div class="teddyBackToDetail col-12 d-flex mb-5 orange ">
+                                    <i class="fas fa-arrow-left fa-2x mr-3"></i>
+                                    <p class="font-weight-bold">Retour</p>
+                                </div>
+                                <p class="col-12 font-weight-bold mb-5">Choissiez une couleur parmis celles disponibles :</p>
+                                <form id="teddyForm" class="d-flex flex-wrap justify-content-center col-12 cameraForm" method="get">
+                                    <div class="teddyInputDiv col-12 d-flex justify-content-center mb-5">
+                                    </div>
+                                    <div class="products--magnet-detail-hide-form-btn col-12 d-flex justify-content-end">
+                                        <button class="cart-btn " type="submit"><i class="fas fa-cart-plus fa-2x"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </template>
                 </div>
             </div>
             <!-- Fin de la section pour les oursons en peluche -->
@@ -65,11 +102,47 @@
                     </div>
 
                 </div>
-                <div id="camerasMagnet" class="d-flex flex-wrap justify-content-around align-items-center">
+                <div id="camerasDiv" class="d-flex flex-wrap justify-content-around">
+                    <template id="cameras">
+                        <div class="cameraMagnet products--magnet d-flex flex-wrap my-4 mx-2">
+                            <div class="cameraOverlay products--magnet-overlay mr-auto"><i class="fas fa-cart-plus fa-5x"></i>
+                            </div>
+                            <div class="products--magnet-img col-12 p-0">
+                                <img class="cameraImg" src=" " alt="image d'un apapreil photo">
+                            </div>
+                            <div class="cameraDetailDiv products--magnet-txt col-12 d-flex flex-wrap py-3">
+                                <div class="cameraName products--magnet-txt-name col-12 mb-3">
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="cameraLense d-flex flex-wrap justify-content-start align-items-center products--magnet-txt-colors">
+                                        <span>Lentilles :</span>
+                                    </div>
+                                </div>
+                                <div class="cameraDescription products--magnet-txt-description d-flex flex-wrap col-12 mb-3">
+                                </div>
+                                <div class="cameraPrice products--magnet-txt-price col-12 d-flex align-items-center mb-3">
+                                </div>
+                            </div>
+                            <div class="cameraCartDiv col-12 d-none flex-wrap align-content-start py-3">
+                                <div class="cameraBackToDetail col-12 d-flex mb-5 orange ">
+                                    <i class="fas fa-arrow-left fa-2x mr-3"></i>
+                                    <p class="font-weight-bold">Retour</p>
+                                </div>
+                                <p class="col-12 font-weight-bold mb-5">Choissiez une taille de lentille parmis celles disponibles :</p>
+                                <form id="cameraForm" class="d-flex flex-wrap justify-content-center col-12 cameraForm" method="get">
+                                    <div class="col-12 d-flex justify-content-center mb-5">
+                                    </div>
+                                    <div class="products--magnet-detail-hide-form-btn col-12 d-flex justify-content-end">
+                                        <button class="cart-btn " type="submit"><i class="fas fa-cart-plus fa-2x"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </template>
                 </div>
             </div>
             <!-- Fin de la section pour les caméras -->
-            <!-- Section pour les caméras -->
+            <!-- Section pour les meubles -->
             <div id="productsFurniture" class="products d-flex flex-wrap justify-content-center align-items-center col-12">
                 <div class="products--header d-flex align-items-center col-12">
                     <h2 class="col-3">Meubles</h2>
@@ -78,13 +151,48 @@
                         <i id="furnituresCaretDown" class="fas fa-angle-down fa-3x" onclick="toggleDiv('furnitures')"></i>
                         <i id="furnituresCaretUp" class="fas fa-angle-up fa-3x" onclick="toggleDiv('furnitures')"></i>
                     </div>
-
                 </div>
-                <div id="furnituresMagnet" class="d-flex flex-wrap justify-content-around">
+                <div id="furnituresDiv" class="d-flex flex-wrap justify-content-around">
+                    <template id="furnitures">
+                        <div class="furnitureMagnet products--magnet d-flex flex-wrap my-4 mx-2">
+                            <div class="furnitureOverlay products--magnet-overlay mr-auto"><i class="fas fa-cart-plus fa-5x"></i>
+                            </div>
+                            <div class="products--magnet-img col-12 p-0">
+                                <img class="furnitureImg" src=" " alt="image d'un meuble">
+                            </div>
+                            <div class="furnitureDetailDiv products--magnet-txt col-12 d-flex flex-wrap py-3">
+                                <div class="furnitureName products--magnet-txt-name col-12 mb-3">
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="furnitureVarnish d-flex justify-content-start align-items-center products--magnet-txt-colors">
+                                        Vernis :
+                                    </div>
+                                </div>
+                                <div class="furnitureDescription products--magnet-txt-description d-flex flex-wrap col-12 mb-3">
+                                </div>
+                                <div class="furniturePrice products--magnet-txt-price col-12 d-flex align-items-center mb-3">
 
+                                </div>
+                            </div>
+                            <div class="furnitureCartDiv col-12 d-none flex-wrap align-content-start py-3">
+                                <div class="furnitureBackToDetail col-12 d-flex mb-5 orange ">
+                                    <i class="fas fa-arrow-left fa-2x mr-3"></i>
+                                    <p class="font-weight-bold">Retour</p>
+                                </div>
+                                <p class="col-12 font-weight-bold mb-5">Choissiez un vernis parmis ceux disponibles :</p>
+                                <form id="furnitureForm" class="d-flex flex-wrap justify-content-center col-12 cameraForm" method="get">
+                                    <div class="col-12 d-flex justify-content-center mb-5">
+                                    </div>
+                                    <div class="products--magnet-detail-hide-form-btn col-12 d-flex justify-content-end">
+                                        <button class="cart-btn " type="submit"><i class="fas fa-cart-plus fa-2x"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </template>
                 </div>
             </div>
-            <!-- Fin de la section pour les caméras -->
+            <!-- Fin de la section pour les meubles -->
         </section>
     </div>
 </div>
@@ -112,13 +220,17 @@
         <p class="m-0 my-1"> © Développé par ZHITI Nicolas</p>
     </div>
 </footer>
+<template>
+
+</template>
 <script type="text/javascript" src="assets/js/index.js"></script>
+<script type="module" src="assets/js/Models/cameras.js"></script>
+<script type="module" src="assets/js/Models/teddies.js"></script>
+<script type="module" src="assets/js/Models/furnitures.js"></script>
 <script type="module" src="assets/js/ApiService.js"></script>
 <script type="module" src="assets/js/ProductsService.js"></script>
-<script type="module" src="assets/js/CartService.js"></script>
-<script type="module" src="assets/js/products/teddies.js"></script>
-<script type="module" src="assets/js/products/cameras.js"></script>
-<script type="module" src="assets/js/products/furnitures.js"></script>
-<script type="module" src="assets/js/products/productDetail.js"></script>
+<script type="module" src="assets/js/Products/teddies.js"></script>
+<script type="module" src="assets/js/Products/cameras.js"></script>
+<script type="module" src="assets/js/Products/furnitures.js "></script>
 </body>
 </html>

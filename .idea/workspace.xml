@@ -2,28 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c972968-79d2-458d-ad53-063bfdec539a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/assets/css/components/_test.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/assets/js/Models/cameras.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/assets/js/Models/furnitures.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/assets/js/Models/teddies.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/css/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/components/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/css/components/_flip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/components/_flip.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/css/components/_product-magnet.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/components/_product-magnet.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/css/components/_product_form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/components/_product_form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/css/components/_select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/components/_select.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/css/pages/_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/pages/_all.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/camera.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/camera.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/furniture.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/furniture.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/teddy.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/teddy.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/assets/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/assets/js/ApiService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/ApiService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/CartService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/CartService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/CartService.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/assets/js/ProductsService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/ProductsService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/products/cameras.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/products/cameras.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/products/furnitures.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/products/furnitures.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/products/productDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/products/productDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/products/teddies.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/products/teddies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/products/cameras.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Products/cameras.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/products/furnitures.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Products/furnitures.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/products/productDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Products/productDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/products/teddies.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Products/teddies.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -60,6 +58,7 @@
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -88,7 +87,8 @@
       <workItem from="1590831062565" duration="302000" />
       <workItem from="1591796790574" duration="47000" />
       <workItem from="1591863757726" duration="2463000" />
-      <workItem from="1591867290707" duration="25698000" />
+      <workItem from="1591867290707" duration="37818000" />
+      <workItem from="1591944707579" duration="11772000" />
     </task>
     <servers />
   </component>
@@ -128,10 +128,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589004749568" />
-    <state x="581" y="201" width="758" height="638" key="find.popup" timestamp="1591869711551">
+    <state x="581" y="201" width="758" height="638" key="find.popup" timestamp="1591956380156">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="581" y="201" width="758" height="638" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591869711551" />
+    <state x="581" y="201" width="758" height="638" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591956380156" />
     <state x="806" y="170" key="ftp.server.browser" timestamp="1591867146716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

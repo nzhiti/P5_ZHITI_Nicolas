@@ -43,7 +43,7 @@ exports.getOneCamera = (req, res, next) => {
  *   city: string,
  *   email: string
  * }
- * products: [string] <-- array of product _id
+ * Products: [string] <-- array of product _id
  *
  */
 exports.orderCameras = (req, res, next) => {

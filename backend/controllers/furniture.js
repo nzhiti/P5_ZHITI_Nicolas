@@ -43,7 +43,7 @@ exports.getOneFurniture = (req, res, next) => {
  *   city: string,
  *   email: string
  * }
- * products: [string] <-- array of product _id
+ * Products: [string] <-- array of product _id
  *
  */
 exports.orderFurniture = (req, res, next) => {

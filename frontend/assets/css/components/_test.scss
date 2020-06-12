@@ -1,0 +1,135 @@
+.teddyInput {
+  &Tan {
+    -webkit-appearance: none;
+    background-color: tan;
+    border: 1px solid white;
+    border-radius: 28px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transition: all ease-in-out 200ms;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.5);
+    }
+    &:checked {
+      background-color: tan;
+      border: 1px solid white;
+      transform: scale(1.5);
+    }
+  }
+  &Chocolate {
+    -webkit-appearance: none;
+    background-color: chocolate;
+    border: 1px solid white;
+    border-radius: 28px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transition: all ease-in-out 200ms;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.5);
+    }
+    &:checked {
+      background-color: chocolate;
+      border: 1px solid white;
+      transform: scale(1.5);
+    }
+  }
+  &Black {
+    -webkit-appearance: none;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 28px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transition: all ease-in-out 200ms;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.5);
+    }
+    &:checked {
+      background-color: black;
+      border: 1px solid white;
+      transform: scale(1.5);
+    }
+  }
+  &White {
+    -webkit-appearance: none;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 28px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transition: all ease-in-out 200ms;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.5);
+    }
+    &:checked {
+      background-color: white;
+      border: 1px solid white;
+      transform: scale(1.5);
+    }
+  }
+  &Brown {
+    -webkit-appearance: none;
+    background-color: brown;
+    border: 1px solid white;
+    border-radius: 28px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transition: all ease-in-out 200ms;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.5);
+    }
+    &:checked {
+      background-color: brown;
+      border: 1px solid white;
+      transform: scale(1.5);
+    }
+  }
+  &Blue {
+    -webkit-appearance: none;
+    background-color: blue;
+    border: 1px solid white;
+    border-radius: 28px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transition: all ease-in-out 200ms;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.5);
+    }
+    &:checked {
+      background-color: blue;
+      border: 1px solid white;
+      transform: scale(1.5);
+    }
+  }
+  &Pink {
+    -webkit-appearance: none;
+    background-color: pink;
+    border: 1px solid white;
+    border-radius: 28px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transition: all ease-in-out 200ms;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.5);
+    }
+    &:checked {
+      background-color: pink;
+      border: 1px solid white;
+      transform: scale(1.5);
+    }
+  }
+}
