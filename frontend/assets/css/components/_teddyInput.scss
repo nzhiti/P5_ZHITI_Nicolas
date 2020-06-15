@@ -1,0 +1,72 @@
+.teddyInput {
+  -webkit-appearance: none;
+  border: 1px solid white;
+  border-radius: 28px;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  transition: all ease-in-out 200ms;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.5);
+  }
+  &:checked {
+    background-color: tan;
+    border: 1px solid white;
+    transform: scale(1.5);
+  }
+  &Tan {
+    background: tan;
+    &:checked {
+      background-color: tan;
+    }
+  }
+  &Chocolate {
+    background-color: chocolate;
+    &:checked {
+      background-color: chocolate;
+    }
+  }
+  &Black {
+    background-color: black;
+    &:checked {
+      background-color: black;
+    }
+  }
+  &White {
+    background-color: white;
+    &:checked {
+      background-color: white;
+    }
+  }
+  &Brown {
+    background-color: brown;
+    &:checked {
+      background-color: brown;
+    }
+  }
+  &Blue {
+    background-color: blue;
+    &:checked {
+      background-color: blue;
+    }
+  }
+  &Pink {
+    background-color: pink;
+    &:checked {
+      background-color: pink;
+    }
+  }
+  &654321 {
+    background: #654321;
+    &:checked {
+      background-color: #654321;
+    }
+  }
+  &987654 {
+    background: #987654;
+    &:checked {
+      background-color: #987654;
+    }
+  }
+}

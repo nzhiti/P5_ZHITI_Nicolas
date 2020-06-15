@@ -198,9 +198,8 @@ html, body {
   pointer-events: none;
 }
 
-.teddyInputTan {
+.teddyInput {
   -webkit-appearance: none;
-  background-color: tan;
   border: 1px solid white;
   border-radius: 28px;
   width: 20px;
@@ -209,112 +208,71 @@ html, body {
   transition: all ease-in-out 200ms;
   cursor: pointer;
 }
-.teddyInputTan:hover {
+.teddyInput:hover {
   transform: scale(1.5);
+}
+.teddyInput:checked {
+  background-color: tan;
+  border: 1px solid white;
+  transform: scale(1.5);
+}
+.teddyInputTan {
+  background: tan;
 }
 .teddyInputTan:checked {
   background-color: tan;
-  border: 1px solid white;
-  transform: scale(1.5);
 }
 .teddyInputChocolate {
-  -webkit-appearance: none;
   background-color: chocolate;
-  border: 1px solid white;
-  border-radius: 28px;
-  width: 20px;
-  height: 20px;
-  position: relative;
-  transition: all ease-in-out 200ms;
-  cursor: pointer;
-}
-.teddyInputChocolate:hover {
-  transform: scale(1.5);
 }
 .teddyInputChocolate:checked {
   background-color: chocolate;
-  border: 1px solid white;
-  transform: scale(1.5);
 }
 .teddyInputBlack {
-  -webkit-appearance: none;
   background-color: black;
-  border: 1px solid white;
-  border-radius: 28px;
-  width: 20px;
-  height: 20px;
-  position: relative;
-  transition: all ease-in-out 200ms;
-  cursor: pointer;
-}
-.teddyInputBlack:hover {
-  transform: scale(1.5);
 }
 .teddyInputBlack:checked {
   background-color: black;
-  border: 1px solid white;
-  transform: scale(1.5);
 }
 .teddyInputWhite {
-  -webkit-appearance: none;
   background-color: white;
-  border: 1px solid white;
-  border-radius: 28px;
-  width: 20px;
-  height: 20px;
-  position: relative;
-  transition: all ease-in-out 200ms;
-  cursor: pointer;
-}
-.teddyInputWhite:hover {
-  transform: scale(1.5);
 }
 .teddyInputWhite:checked {
   background-color: white;
-  border: 1px solid white;
-  transform: scale(1.5);
 }
 .teddyInputBrown {
-  -webkit-appearance: none;
   background-color: brown;
-  border: 1px solid white;
-  border-radius: 28px;
-  width: 20px;
-  height: 20px;
-  position: relative;
-  transition: all ease-in-out 200ms;
-  cursor: pointer;
-}
-.teddyInputBrown:hover {
-  transform: scale(1.5);
 }
 .teddyInputBrown:checked {
   background-color: brown;
-  border: 1px solid white;
-  transform: scale(1.5);
 }
 .teddyInputBlue {
-  -webkit-appearance: none;
   background-color: blue;
-  border: 1px solid white;
-  border-radius: 28px;
-  width: 20px;
-  height: 20px;
-  position: relative;
-  transition: all ease-in-out 200ms;
-  cursor: pointer;
-}
-.teddyInputBlue:hover {
-  transform: scale(1.5);
 }
 .teddyInputBlue:checked {
   background-color: blue;
-  border: 1px solid white;
-  transform: scale(1.5);
 }
 .teddyInputPink {
-  -webkit-appearance: none;
   background-color: pink;
+}
+.teddyInputPink:checked {
+  background-color: pink;
+}
+.teddyInput654321 {
+  background: #654321;
+}
+.teddyInput654321:checked {
+  background-color: #654321;
+}
+.teddyInput987654 {
+  background: #987654;
+}
+.teddyInput987654:checked {
+  background-color: #987654;
+}
+
+.furnitureInput {
+  -webkit-appearance: none;
   border: 1px solid white;
   border-radius: 28px;
   width: 20px;
@@ -323,13 +281,72 @@ html, body {
   transition: all ease-in-out 200ms;
   cursor: pointer;
 }
-.teddyInputPink:hover {
+.furnitureInput:hover {
   transform: scale(1.5);
 }
-.teddyInputPink:checked {
-  background-color: pink;
+.furnitureInput:checked {
+  background-color: tan;
   border: 1px solid white;
   transform: scale(1.5);
+}
+.furnitureInputd1af84 {
+  background: #d1af84;
+}
+.furnitureInputd1af84:checked {
+  background-color: #d1af84;
+}
+.furnitureInput55342b {
+  background-color: #55342b;
+}
+.furnitureInput55342b:checked {
+  background-color: #55342b;
+}
+.furnitureInputc04000 {
+  background-color: #c04000;
+}
+.furnitureInputc04000:checked {
+  background-color: #c04000;
+}
+.furnitureInputc29467 {
+  background-color: #c29467;
+}
+.furnitureInputc29467:checked {
+  background-color: #c29467;
+}
+
+.cameraSelect {
+  position: relative;
+}
+.cameraSelect:after {
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 100%;
+  background: #cc7f56;
+  border-bottom-right-radius: 28px;
+  border-top-right-radius: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+.cameraSelect > select {
+  appearance: none;
+  -moz-appearance: none;
+  /* Firefox */
+  -webkit-appearance: none;
+  /* Safari and Chrome */
+  cursor: pointer;
+  width: 100%;
+  border: 3px solid #cc7f56;
+  background: transparent;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
 }
 
 .header {

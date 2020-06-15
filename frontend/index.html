@@ -73,7 +73,7 @@
                                 </div>
                             </div>
                             <div class="teddyCartDiv col-12 d-none flex-wrap align-content-start py-3">
-                                <div class="teddyBackToDetail col-12 d-flex mb-5 orange ">
+                                <div class="teddyBackToDetail col-12 d-flex mb-3 orange ">
                                     <i class="fas fa-arrow-left fa-2x mr-3"></i>
                                     <p class="font-weight-bold">Retour</p>
                                 </div>
@@ -130,7 +130,10 @@
                                 </div>
                                 <p class="col-12 font-weight-bold mb-5">Choissiez une taille de lentille parmis celles disponibles :</p>
                                 <form id="cameraForm" class="d-flex flex-wrap justify-content-center col-12 cameraForm" method="get">
-                                    <div class="col-12 d-flex justify-content-center mb-5">
+                                    <div class="cameraSelect col-12 d-flex justify-content-center mb-5">
+                                        <select name=cameraLenseSize" class="lenseSelect col-12">
+
+                                        </select>
                                     </div>
                                     <div class="products--magnet-detail-hide-form-btn col-12 d-flex justify-content-end">
                                         <button class="cart-btn " type="submit"><i class="fas fa-cart-plus fa-2x"></i></button>
@@ -181,7 +184,7 @@
                                 </div>
                                 <p class="col-12 font-weight-bold mb-5">Choissiez un vernis parmis ceux disponibles :</p>
                                 <form id="furnitureForm" class="d-flex flex-wrap justify-content-center col-12 cameraForm" method="get">
-                                    <div class="col-12 d-flex justify-content-center mb-5">
+                                    <div class="furnitureInputDiv col-12 d-flex justify-content-center mb-5">
                                     </div>
                                     <div class="products--magnet-detail-hide-form-btn col-12 d-flex justify-content-end">
                                         <button class="cart-btn " type="submit"><i class="fas fa-cart-plus fa-2x"></i></button>
@@ -227,8 +230,10 @@
 <script type="module" src="assets/js/Models/cameras.js"></script>
 <script type="module" src="assets/js/Models/teddies.js"></script>
 <script type="module" src="assets/js/Models/furnitures.js"></script>
+<script type="module" src="assets/js/Models/CartObject.js"></script>
 <script type="module" src="assets/js/ApiService.js"></script>
 <script type="module" src="assets/js/ProductsService.js"></script>
+<script type="module" src="assets/js/CartService.js"></script>
 <script type="module" src="assets/js/Products/teddies.js"></script>
 <script type="module" src="assets/js/Products/cameras.js"></script>
 <script type="module" src="assets/js/Products/furnitures.js "></script>

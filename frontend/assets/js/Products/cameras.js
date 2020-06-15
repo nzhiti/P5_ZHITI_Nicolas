@@ -30,9 +30,14 @@ function drawCameras(datas) {
         let $cameraCartDivArrow = $camera.querySelector('.cameraBackToDetail');
         let $cameraLenseDiv = $camera.querySelector('.cameraLense');
         let $cameraLenseHtml = '';
+        let $lenseSelect = $camera.querySelector('.lenseSelect');
         for(let cameraLense of camera.lenses) {
             $cameraLenseHtml += '<div class="products--magnet-txt-lenses-single mr-2 mb-2">'+cameraLense+'</div>';
             $cameraLenseDiv.innerHTML = $cameraLenseHtml;
+            let $selectOption = document.createElement('option');
+            ProductsService.setAttributes($selectOption , {'value' : cameraLense.replace(/[ ,.]/g, "")});
+            $selectOption.innerHTML = cameraLense;
+            $lenseSelect.appendChild($selectOption);
         }
         $cameraOverlay.addEventListener('click' , function showCartDiv() {
             $cameraDetailDiv.classList.toggle('d-flex');

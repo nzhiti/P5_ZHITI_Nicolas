@@ -1,0 +1,42 @@
+.furnitureInput {
+  -webkit-appearance: none;
+  border: 1px solid white;
+  border-radius: 28px;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  transition: all ease-in-out 200ms;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.5);
+  }
+  &:checked {
+    background-color: tan;
+    border: 1px solid white;
+    transform: scale(1.5);
+  }
+  &d1af84 {
+    background: #d1af84;
+    &:checked {
+      background-color: #d1af84;
+    }
+  }
+  &55342b {
+    background-color: #55342b;
+    &:checked {
+      background-color: #55342b;
+    }
+  }
+  &c04000 {
+    background-color: #c04000;
+    &:checked {
+      background-color: #c04000;
+    }
+  }
+  &c29467 {
+    background-color: #c29467;
+    &:checked {
+      background-color: #c29467;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.cameraSelect {
+  position: relative;
+  &:after {
+    content: '\f338';
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 100%;
+    background: $orange;
+    border-bottom-right-radius: 28px;
+    border-top-right-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+  }
+  & > select {
+    appearance: none;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    cursor: pointer;
+    width: 100%;
+    border: 3px solid $orange;
+    background: transparent;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+}

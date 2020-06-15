@@ -29,6 +29,10 @@ function drawFurnitures(datas) {
         let $furnitureCartDiv = $furniture.querySelector('.furnitureCartDiv');
         let $furnitureCartDivArrow = $furniture.querySelector('.furnitureBackToDetail');
         let $furnitureVarnishDiv = $furniture.querySelector('.furnitureVarnish');
+        let $furnitureForm = $furniture.querySelector('#furnitureForm');
+        $furnitureForm.addEventListener('submit' , (e) => {
+            e.preventDefault();
+        });
         for(let furnitureVarnish of furniture.varnish) {
             let bgVarnish = '';
             if (furnitureVarnish === "Light Oak") {
@@ -43,6 +47,14 @@ function drawFurnitures(datas) {
             let $furnitureVarnishChildDiv = document.createElement('div');
             ProductsService.setAttributes($furnitureVarnishChildDiv, {"style":'background: '+bgVarnish+'' , "class" : "ml-3"});
             $furnitureVarnishDiv.appendChild($furnitureVarnishChildDiv);
+
+            let $furnitureInput = document.createElement('input');
+            let $furnitureInputSpan = document.createElement('span');
+            ProductsService.setAttributes($furnitureInputSpan , {'class': 'furnitureInputSpan'+bgVarnish.replace('#' , '') + ' ' + 'furnitureInputSpan'});
+            let $furnitureInputDiv = $furniture.querySelector('.furnitureInputDiv');
+            ProductsService.setAttributes($furnitureInput, {"name":'furnitureInput' , "value" : ''+bgVarnish+'' , 'type':'radio' , 'class':'mr-2 furnitureInput'+bgVarnish.replace('#' , '') + ' ' +'furnitureInput'});
+            $furnitureInputDiv.appendChild($furnitureInput);
+            $furnitureInputDiv.appendChild($furnitureInputSpan);
         }
         $furnitureOverlay.addEventListener('click' , function showCartDiv() {
             $furnitureDetailDiv.classList.toggle('d-flex');
