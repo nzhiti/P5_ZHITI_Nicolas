@@ -1,0 +1,18 @@
+.fade-scale {
+  animation: fadeAndScale 800ms ease-in-out;
+}
+
+@keyframes fadeAndScale {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.8);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

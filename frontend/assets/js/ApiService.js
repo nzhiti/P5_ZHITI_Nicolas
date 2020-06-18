@@ -17,6 +17,19 @@ class ApiService {
         return data
     }
 
+    async getSingleProduct(productName , id){
+        const url = 'https://lindow.fr/api/'+productName+'/'+id;
+        let data = (await (fetch(url)
+                .then(response => {
+                    return response.json();
+                })
+                .catch(error => {
+                    console.log('Error: ' + error)
+                })
+        ));
+        return data
+    }
+
 }
 
 export default new ApiService()

@@ -6,12 +6,31 @@ a, a:visited, a:focus, a:active, a:hover {
 
 body {
   background: #f3e9f1 !important;
+  position: relative !important;
 }
 
 html, body {
   font-family: "Quicksand", sans-serif;
 }
 
+.fade-scale {
+  animation: fadeAndScale 800ms ease-in-out;
+}
+
+@keyframes fadeAndScale {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.8);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
 .cart-btn {
   background: transparent;
   color: #9d66d6;
@@ -21,6 +40,51 @@ html, body {
 .cart-btn:hover {
   transform: scale(1.5);
   opacity: 0.6;
+}
+
+.cart--wrap-magnet {
+  box-shadow: 0px 3px 6px #00000085;
+}
+.cart--wrap-magnet-single {
+  height: 100%;
+  color: white;
+  background: #8e5878;
+}
+.cart--wrap-magnet-single-img > img {
+  width: 100%;
+}
+.cart--wrap-magnet-single-description {
+  height: 100%;
+}
+.cart--wrap-magnet-single-option {
+  height: 100% !important;
+}
+.cart--wrap-magnet-single-remove {
+  width: 100%;
+  height: 100%;
+  background: #4f3143;
+}
+
+.errorDiv {
+  animation: error 3000ms ease-in-out;
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  background: #cc7f56;
+  color: white;
+  font-size: 24px;
+  z-index: 999;
+}
+@keyframes error {
+  0% {
+    opacity: 0;
+  }
+  20%, 60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .cameraForm > input {

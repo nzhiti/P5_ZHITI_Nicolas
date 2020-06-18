@@ -2,19 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c972968-79d2-458d-ad53-063bfdec539a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/assets/css/components/_cameraSelect.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/assets/css/components/_furnitureInput.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/assets/css/components/_teddyInput.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/assets/js/CartService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/assets/js/Models/CartObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/assets/css/components/_animation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/assets/css/components/_cart.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/assets/css/components/_errorDiv.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/assets/js/Products/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/css/components/_test.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/css/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/base/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/css/pages/_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/pages/_all.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/assets/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Products/cameras.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Products/cameras.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Products/furnitures.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Products/furnitures.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/ApiService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/ApiService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/CartService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/CartService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Models/CartObject.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Models/CartObject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Models/teddies.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Models/teddies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Products/productDetail.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/assets/js/Products/teddies.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Products/teddies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/ProductsService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/ProductsService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +89,12 @@
       <workItem from="1591863757726" duration="2463000" />
       <workItem from="1591867290707" duration="37818000" />
       <workItem from="1591944707579" duration="11892000" />
-      <workItem from="1592234632960" duration="10486000" />
+      <workItem from="1592234632960" duration="10516000" />
+      <workItem from="1592321439754" duration="954000" />
+      <workItem from="1592328464723" duration="39000" />
+      <workItem from="1592397834708" duration="599000" />
+      <workItem from="1592472392291" duration="16000" />
+      <workItem from="1592479027123" duration="18774000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,22 @@
+.errorDiv {
+  animation: error 3000ms ease-in-out;
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  background: $orange;
+  color: white;
+  font-size: 24px;
+  z-index: 999;
+
+  @keyframes error {
+    0% {
+      opacity: 0;
+    }
+    20% , 60% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+}

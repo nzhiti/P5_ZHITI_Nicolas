@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Le premier site d'e-commerce intelligent">
+    <meta name="author" content="ZHITI Nicolas">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <title>Orinoco | L'e-commerce intelligent</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+
+
+</head>
+<body>
+<section class="topbar col-12 d-flex justify-content-center align-items-center">
+    <div class="topbar--social col-12 offset-0 col-md-2 offset-md-10 d-flex justify-content-end align-items-center my-2">
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href="" class="ml-3"><i class="fab fa-facebook"></i></a>
+        <a href="" class="ml-3"><i class="fab fa-google-plus-g"></i></a>
+    </div>
+</section>
+<header class="header">
+    <div class="header--logo d-flex justify-content-center align-items-center col-12">
+        <a href="index.html"><img src="assets/img/logo.png" alt="Logo de la société Orinoco"></a>
+    </div>
+    <div class="header--checkout">
+        <a href="cart.html" class="bigCartIcon mr-5 d-none d-md-block"><i class="fas fa-shopping-cart fa-3x"></i></a>
+        <a href="cart.html" class="bigCartIcon mr-5 d-block d-md-none"><i class="fas fa-shopping-cart fa-2x"></i></a>
+    </div>
+</header>
+
+<div class="container">
+    <div class="row">
+        <section id="content" class="content cart--wrap col-12">
+            <div class="d-flex cart--wrap-title col-12 justify-content-center">
+                <h1>Votre panier</h1>
+            </div>
+            <div id="cartMagnet" class="cart--wrap-magnet products py-4 px-0 d-flex flex-wrap align-items-center">
+                <template id="cartSingleProduct">
+                    <div class="cart--wrap-magnet-single col-12 p-0 d-flex flex-wrap align-items-center mb-3">
+                        <div class="cart--wrap-magnet-single-img col-lg-3 col-4 p-0">
+                            <img class="productImg" src="" alt="image d'ourson en peluche">
+                        </div>
+                        <div class="cart--wrap-magnet-single-description col-5 align-self-start mt-4 d-none d-lg-block">
+                            <p class="font-weight-bold">Description du produit :</p>
+                            <p class="productDesc"></p>
+                        </div>
+                        <div class="cart--wrap-magnet-single-option col-lg-2 col-8 align-self-start mt-4">
+                            <div>
+                                <p class="font-weight-bold">Personnalisation</p>
+                                <p class="productOption">Couleur :</p>
+                            </div>
+                        </div>
+                        <div class="cart--wrap-magnet-single-remove text-center p-3">
+                            <i class="fas fa-trash-alt fa-2x"></i>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </section>
+    </div>
+</div>
+
+<footer class="footer d-flex flex-wrap justify-content-center align-items-center col-12 p-0">
+    <div class="footer--brand col-12 d-flex flex-wrap justify-content-center align-items-center col-md-4 offset-md-1 justify-content-md-start my-5">
+        <div class="footer--brand-img col-12 d-flex justify-content-center align-items-center">
+            <img src="assets/img/logo.png" alt="Logo de la société Orinoco">
+        </div>
+        <div class="footer--brand-txt col-12 d-flex justify-content-center align-items-center">
+            <i class="fa-quote-left fa"></i>
+            <p class="text-center m-0 mx-3">La meilleur façon de faire son shopping c'est sur Orinoco !</p>
+            <i class="fa-quote-right fa"></i>
+        </div>
+    </div>
+    <div class="footer--social d-flex justify-content-center align-items-center col-12 col-md-7 my-5">
+        <a href="" class="mr-md-5 d-none d-md-block"><i class="fab fa-twitter-square fa-5x "></i></a>
+        <a href="" class="mr-md-5 mx-5 mx-md-0 d-none d-md-block"><i class="fab fa-facebook-square fa-5x"></i></a>
+        <a href="" class="mr-md-5 d-none d-md-block"><i class="fab fa-google-plus-square fa-5x"></i></a>
+        <a href="" class="mr-md-5 d-block d-md-none"><i class="fab fa-twitter-square fa-3x "></i></a>
+        <a href="" class="mr-md-5 mx-5 mx-md-0 d-block d-md-none"><i class="fab fa-facebook-square fa-3x"></i></a>
+        <a href="" class="mr-md-5 d-block d-md-none"><i class="fab fa-google-plus-square fa-3x"></i></a>
+    </div>
+    <div class="footer--copyright col-12 d-flex align-items-center justify-content-end ">
+        <p class="m-0 my-1"> © Développé par ZHITI Nicolas</p>
+    </div>
+    <script type="module" src="assets/js/Models/CartObject.js"></script>
+    <script type="module" src="assets/js/CartService.js"></script>
+    <script type="module" src="assets/js/ApiService.js"></script>
+    <script type="module" src="assets/js/ProductsService.js"></script>
+    <script type="module" src="assets/js/Products/cart.js"></script>
+</footer>
+</body>
+</html>

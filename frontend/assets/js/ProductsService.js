@@ -8,7 +8,6 @@ class ProductsService {
             console.log(error);
         }
     }
-
     getCameras() {
         try {
             return ApiService.getProducts('cameras')
@@ -26,6 +25,14 @@ class ProductsService {
     setAttributes(el, attrs) {
         for(var key in attrs) {
             el.setAttribute(key, attrs[key]);
+        }
+    }
+
+    getSingleProduct(productName , id) {
+        try {
+            return ApiService.getSingleProduct(productName , id);
+        } catch (error) {
+            console.log(error);
         }
     }
 }
