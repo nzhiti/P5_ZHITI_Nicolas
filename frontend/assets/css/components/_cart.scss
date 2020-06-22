@@ -1,6 +1,58 @@
 .cart--wrap {
-  &-magnet {
+  &-action {
+    color: white;
+    & > a {
+      background: $brown;
+      font-weight: bold;
+      padding: 15px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all ease-in-out 400ms;
+      &:hover {
+        background: $orange;
+        transform: scale(1.2);}
+    }
+  }
 
+  &-form {
+    &-action {
+      font-weight: bold;
+      &-back {
+        padding: 10px;
+        color: $purple;
+      }
+      &-procceed {
+        & > button {
+          background: transparent;
+          border: none;
+          color: $orange;
+          &:hover {
+            color: white;
+          }
+        }
+        padding: 10px;
+        background: $brown;
+        transition: all ease-in-out 400ms;
+        &:hover {
+          background: $orange;
+          transform: scale(1.3);
+        }
+      }
+    }
+    &-input {
+      & > label {
+        color: $brown;
+      }
+      & > input {
+        padding: 15px;
+        background: transparent;
+        border-radius: 28px;
+        border: 4px solid $orange;
+        color: $purple;
+      }
+    }
+  }
+  &-magnet {
     @include shadow($shadow-color);
     &-single {
       height: 100%;
@@ -21,8 +73,12 @@
         width: 100%;
         height: 100%;
         background: $brown;
+        cursor: pointer;
       }
     }
   }
+}
 
+#contentHidden {
+  display: none;
 }

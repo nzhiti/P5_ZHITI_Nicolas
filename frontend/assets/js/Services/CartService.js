@@ -1,4 +1,4 @@
-import CartObject from "./Models/CartObject.js";
+import CartObject from "../Models/CartObject.js";
 
 class CartService {
     constructor() {
@@ -20,6 +20,16 @@ class CartService {
         this.cart.push(cartObject);
         localStorage.setItem( 'cart' , JSON.stringify(this.cart));
     }
+    remove(productId , productOption) {
+        for( let i = 0; i < this.cart.length; i++) {
+            if(this.cart[i]._id === productId && this.cart[i].option === productOption) {
+                this.cart.splice(i , 1);
+                i--;
+            }
+        }
+        localStorage.setItem( 'cart' , JSON.stringify(this.cart));
+    }
+
 }
 
 const cartService = new CartService();

@@ -1,6 +1,6 @@
 .errorDiv {
   animation: error 3000ms ease-in-out;
-  position: absolute !important;
+  position: fixed !important;
   top: 0;
   left: 0;
   background: $orange;

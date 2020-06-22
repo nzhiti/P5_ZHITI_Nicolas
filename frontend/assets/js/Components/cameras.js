@@ -1,4 +1,4 @@
-import ProductsService from "../ProductsService.js";
+import ProductsService from "../Services/ProductsService.js";
 import Camera from "../Models/cameras.js";
 
 function iterateCameras() {

@@ -2,25 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c972968-79d2-458d-ad53-063bfdec539a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/assets/css/components/_animation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/assets/css/components/_cart.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/assets/css/components/_errorDiv.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/assets/js/Products/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/assets/js/Components/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/assets/js/Components/procceedOrder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/assets/js/Models/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/assets/js/Services/ProductsService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/css/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/base/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/css/pages/_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/pages/_all.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/camera.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/camera.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/furniture.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/furniture.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/teddy.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/teddy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/css/components/_cart.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/components/_cart.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/css/components/_errorDiv.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/components/_errorDiv.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/ApiService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/ApiService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/CartService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/CartService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Models/CartObject.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Models/CartObject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Models/teddies.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Models/teddies.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Products/productDetail.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Products/teddies.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Products/teddies.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/ProductsService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/ProductsService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/ApiService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Services/ApiService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/CartService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Services/CartService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Products/cameras.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Components/cameras.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Products/cart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Products/furnitures.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Components/furnitures.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Products/teddies.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Components/teddies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/ProductsService.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +64,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Mes Documents\Projets Openclassrooms\Projet 5\Site\frontend\assets\js\Services" />
+      <recent name="E:\Mes Documents\Projets Openclassrooms\Projet 5\Site\frontend\assets\js\Models" />
       <recent name="E:\Mes Documents\Projets Openclassrooms\Projet 5\Site\frontend\assets\js" />
     </key>
   </component>
@@ -94,7 +98,9 @@
       <workItem from="1592328464723" duration="39000" />
       <workItem from="1592397834708" duration="599000" />
       <workItem from="1592472392291" duration="16000" />
-      <workItem from="1592479027123" duration="18774000" />
+      <workItem from="1592479027123" duration="18805000" />
+      <workItem from="1592602457274" duration="16000" />
+      <workItem from="1592808393874" duration="15565000" />
     </task>
     <servers />
   </component>

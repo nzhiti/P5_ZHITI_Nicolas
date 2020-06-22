@@ -1,6 +1,6 @@
-import ProductsService from "../ProductsService.js";
+import ProductsService from "../Services/ProductsService.js";
 import Teddy from "../Models/teddies.js";
-import CartService from "../CartService.js";
+import CartService from "../Services/CartService.js";
 
 // Création d'un nouveau teddy à partir du model
 
@@ -26,7 +26,6 @@ function drawTeddies(datas) {
     for(let data of datas) {
         // Importation des valeurs dans les templates
         let teddy = new Teddy(data);
-        console.log(teddy);
         const $teddy = document.importNode(content, true);
         $teddy.querySelector('.teddyImg').setAttribute('src', teddy.imageUrl);
         $teddy.querySelector('.teddyName').textContent = teddy.name;
@@ -100,8 +99,6 @@ function drawTeddies(datas) {
                 if(option) { // si option choisie
                     // Ajout au panier
                     CartService.add(teddy._id , option, 'teddies');
-                    console.log(teddy._id );
-
                     // Animation de l'icône panier dans le menu
                     let cartBigIcon = document.querySelector('.bigCartIcon');
                     cartBigIcon.classList.add('fade-scale');

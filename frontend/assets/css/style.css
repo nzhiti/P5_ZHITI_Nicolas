@@ -42,6 +42,55 @@ html, body {
   opacity: 0.6;
 }
 
+.cart--wrap-action {
+  color: white;
+}
+.cart--wrap-action > a {
+  background: #4f3143;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all ease-in-out 400ms;
+}
+.cart--wrap-action > a:hover {
+  background: #cc7f56;
+  transform: scale(1.2);
+}
+.cart--wrap-form-action {
+  font-weight: bold;
+}
+.cart--wrap-form-action-back {
+  padding: 10px;
+  color: #9d66d6;
+}
+.cart--wrap-form-action-procceed {
+  padding: 10px;
+  background: #4f3143;
+  transition: all ease-in-out 400ms;
+}
+.cart--wrap-form-action-procceed > button {
+  background: transparent;
+  border: none;
+  color: #cc7f56;
+}
+.cart--wrap-form-action-procceed > button:hover {
+  color: white;
+}
+.cart--wrap-form-action-procceed:hover {
+  background: #cc7f56;
+  transform: scale(1.3);
+}
+.cart--wrap-form-input > label {
+  color: #4f3143;
+}
+.cart--wrap-form-input > input {
+  padding: 15px;
+  background: transparent;
+  border-radius: 28px;
+  border: 4px solid #cc7f56;
+  color: #9d66d6;
+}
 .cart--wrap-magnet {
   box-shadow: 0px 3px 6px #00000085;
 }
@@ -63,11 +112,16 @@ html, body {
   width: 100%;
   height: 100%;
   background: #4f3143;
+  cursor: pointer;
+}
+
+#contentHidden {
+  display: none;
 }
 
 .errorDiv {
   animation: error 3000ms ease-in-out;
-  position: absolute !important;
+  position: fixed !important;
   top: 0;
   left: 0;
   background: #cc7f56;

@@ -64,6 +64,40 @@
                     </div>
                 </template>
             </div>
+            <div class="cart--wrap-action col-12 p-0 d-flex justify-content-center mb-5">
+                <a class="cart--wrap-action-procceed">Valider le panier et passer la commande</a>
+            </div>
+        </section>
+        <section id="contentHidden" class="content cart--wrap col-12">
+            <div class="d-flex cart--wrap-title col-12 justify-content-center mb-5">
+                <h1>Vos co-ordonnées</h1>
+            </div>
+            <form id="cartForm" class="cart--wrap-form mb-5 col-12 d-flex justify-content-center flex-wrap" action="">
+                <div class="cart--wrap-form-input col-12 d-flex justify-content-center flex-wrap">
+                    <label for="lastName" class="col-12 p-0 mb-3 text-center font-weight-bold">Nom</label>
+                    <input type="text" name="lastName" id="lastName" class="col-8 mb-3" required>
+                </div>
+                <div class="cart--wrap-form-input col-12 d-flex justify-content-center flex-wrap" class="col-12 mb-3 text-center font-weight-bold">
+                    <label for="firstName" class="col-12 mb-3 text-center font-weight-bold">Prénom</label>
+                    <input type="text" id="firstName" name="firstName" class="col-8 mb-3" required>
+                </div>
+                <div class="cart--wrap-form-input col-12 d-flex justify-content-center flex-wrap" class="col-12 mb-3 text-center font-weight-bold">
+                    <label for="address" class="col-12 mb-3 text-center font-weight-bold">Adresse</label>
+                    <input type="text" id="address" name="address" class="col-8 mb-3" required>
+                </div>
+                <div class="cart--wrap-form-input col-12 d-flex justify-content-center flex-wrap" class="col-12 mb-3 text-center font-weight-bold">
+                    <label for="city" class="col-12 mb-3 text-center font-weight-bold">Ville</label>
+                    <input type="text" id="city" name="city" class="col-8 mb-3" required>
+                </div>
+                <div class="cart--wrap-form-input col-12 d-flex justify-content-center flex-wrap mb-5" class="col-12 mb-3 text-center font-weight-bold">
+                    <label for="email" class="col-12 mb-3 text-center font-weight-bold">Adresse électronique</label>
+                    <input type="email" id="email" name="email" class="col-8 mb-3" required>
+                </div>
+                <div class="cart--wrap-form-action col-12 d-flex flex-wrap justify-content-center mb-5">
+                    <div class="col-12 col-lg-3 text-center cart--wrap-form-action-back"><a href="">Revenir au panier</a></div>
+                    <div class="col-12 col-lg-3 text-center cart--wrap-form-action-procceed"><button type="submit">Proccéder au paiement</button></div>
+                </div>
+            </form>
         </section>
     </div>
 </div>
@@ -90,11 +124,14 @@
     <div class="footer--copyright col-12 d-flex align-items-center justify-content-end ">
         <p class="m-0 my-1"> © Développé par ZHITI Nicolas</p>
     </div>
+    <script type="text/javascript" src="assets/js/index.js"></script>
     <script type="module" src="assets/js/Models/CartObject.js"></script>
-    <script type="module" src="assets/js/CartService.js"></script>
-    <script type="module" src="assets/js/ApiService.js"></script>
-    <script type="module" src="assets/js/ProductsService.js"></script>
-    <script type="module" src="assets/js/Products/cart.js"></script>
+    <script type="module" src="assets/js/Models/order.js"></script>
+    <script type="module" src="assets/js/Components/procceedOrder.js"></script>
+    <script type="module" src="assets/js/Services/CartService.js"></script>
+    <script type="module" src="assets/js/Services/ApiService.js"></script>
+    <script type="module" src="assets/js/Services/ProductsService.js"></script>
+    <script type="module" src="assets/js/Components/cart.js"></script>
 </footer>
 </body>
 </html>

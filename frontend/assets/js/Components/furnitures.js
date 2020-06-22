@@ -1,4 +1,4 @@
-import ProductsService from "../ProductsService.js";
+import ProductsService from "../Services/ProductsService.js";
 import Furnitures from "../Models/furnitures.js";
 
 function iterateFurnitures() {
