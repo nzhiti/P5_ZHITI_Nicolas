@@ -22,7 +22,6 @@ function iterateTeddies() {
 
 
 function drawTeddies(datas) {
-    console.log(datas);
     for(let data of datas) {
         // Importation des valeurs dans les templates
         let teddy = new Teddy(data);

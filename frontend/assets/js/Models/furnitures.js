@@ -1,10 +1,11 @@
 class Furnitures {
-    constructor(_id, name, price, description, imageUrl, varnish) {
-        this._id = _id;
-        this.name = name;
-        this.price = description;
-        this.imageUrl = imageUrl;
-        this.varnish = varnish;
+    constructor(data) {
+        this._id = data._id;
+        this.name = data.name;
+        this.description = data.description;
+        this.imageUrl = data.imageUrl;
+        this.price = data.price;
+        this.varnish = data.varnish;
     }
 }
 export default Furnitures
