@@ -1,4 +1,4 @@
-class OrderContact {
+class contactObject {
     constructor(data) {
         this.firstName = data.firstName;
         this.lastName = data.lastName;
@@ -7,4 +7,4 @@ class OrderContact {
         this.email = data.email;
     }
 }
-export default OrderContact
+export default contactObject

@@ -1,6 +1,7 @@
 import ApiService from "./ApiService.js";
 
 class ProductsService {
+    // On récupère les produits
     getTeddies() {
         return ApiService.getProducts('teddies');
     }
@@ -10,9 +11,13 @@ class ProductsService {
     getFurnitures() {
         return ApiService.getProducts('furniture');
     }
+
+    // On récupère un seul produit
     getSingleProduct(productName , id) {
         return ApiService.getSingleProduct(productName , id);;
     }
+
+    // Fonction Utiles dans le reste du code
     setAttributes(el, attrs) {
         for(var key in attrs) {
             el.setAttribute(key, attrs[key]);

@@ -5,7 +5,7 @@ exports.getAllTeddies = (req, res, next) => {
   Teddy.find().then(
     (teddies) => {
       const mappedTeddies = teddies.map((teddy) => {
-        teddy.imageUrl = req.protocol + '://' + 'lindow.fr' + '/images/' + teddy.imageUrl;
+        teddy.imageUrl = req.protocol + '://' + req.get('host') + '/images/' + teddy.imageUrl;
         return teddy;
       });
       res.status(200).json(mappedTeddies);
@@ -23,7 +23,7 @@ exports.getOneTeddy = (req, res, next) => {
       if (!teddy) {
         return res.status(404).send(new Error('Teddy not found!'));
       }
-      teddy.imageUrl = req.protocol + '://' + 'lindow.fr' + '/images/' + teddy.imageUrl;
+      teddy.imageUrl = req.protocol + '://' + req.get('host') + '/images/' + teddy.imageUrl;
       res.status(200).json(teddy);
     }
   ).catch(
@@ -43,7 +43,7 @@ exports.getOneTeddy = (req, res, next) => {
  *   city: string,
  *   email: string
  * }
- * Components: [string] <-- array of product _id
+ * products: [string] <-- array of product _id
  *
  */
 exports.orderTeddies = (req, res, next) => {
@@ -64,7 +64,7 @@ exports.orderTeddies = (req, res, next) => {
           if (!teddy) {
             reject('Camera not found: ' + productId);
           }
-          teddy.imageUrl = req.protocol + '://' + 'lindow.fr' + '/images/' + teddy.imageUrl;
+          teddy.imageUrl = req.protocol + '://' + req.get('host') + '/images/' + teddy.imageUrl;
           resolve(teddy);
         }
       ).catch(
@@ -86,7 +86,7 @@ exports.orderTeddies = (req, res, next) => {
     }
   ).catch(
     (error) => {
-      return res.status(500).json(new Error(error));
+      return res.status(500).json(error);
     }
   );
 };

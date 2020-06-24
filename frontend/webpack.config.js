@@ -36,10 +36,6 @@ module.exports = {
 
         host: 'localhost',
         publicPath: '/',
-        public : 'https://lindow.fr/',
-        allowedHosts: [
-            'lindow.fr',
-        ],
         liveReload: true,
         hot: true,
     }

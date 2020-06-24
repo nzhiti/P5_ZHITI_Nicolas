@@ -80,7 +80,6 @@ function drawCameras(datas) {
         $cameraForm.addEventListener('submit' , (e) => {
             e.preventDefault();
             let option = new FormData($cameraForm).get('cameraLenseSize');
-            console.log(option);
             // Validation du form
             if(option) { // si option choisie
                 // Ajout au panier
