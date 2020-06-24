@@ -89,7 +89,7 @@ function drawFurnitures(datas) {
         }
 
         /**
-         * Ajout au panier de l'élement meuble et de son vernis
+         * Ajout au panier de l'élement ourson et de sa couleur
          * @type {Element | any}
          */
         let $furnitureForm = $furniture.querySelector('#furnitureForm');

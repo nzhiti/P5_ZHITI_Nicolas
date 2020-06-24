@@ -11,7 +11,7 @@
     border: 3px solid $orange;
     border-radius: 28px;
     padding: 0 0 0 10px;
-    color: $purple;
+    color: white;
   }
 
   &:after {
@@ -38,6 +38,4 @@
     background: $orange;
     pointer-events: none;
   }
-
-
 }

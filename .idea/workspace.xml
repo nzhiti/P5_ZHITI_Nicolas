@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="4c972968-79d2-458d-ad53-063bfdec539a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/css/components/_cameraSelect.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/components/_cameraSelect.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/css/components/_select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/components/_select.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Components/cameras.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Components/cameras.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/assets/js/Components/furnitures.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Components/furnitures.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Components/teddies.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Components/teddies.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Models/cameras.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Models/cameras.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Models/furnitures.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Models/furnitures.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +89,7 @@
       <workItem from="1592808393874" duration="17404000" />
       <workItem from="1592916423671" duration="820000" />
       <workItem from="1592926330586" duration="2199000" />
+      <workItem from="1592987709820" duration="595000" />
     </task>
     <servers />
   </component>
@@ -129,10 +133,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592242519047" />
-    <state x="581" y="201" width="758" height="638" key="find.popup" timestamp="1592240904637">
+    <state x="581" y="201" width="758" height="638" key="find.popup" timestamp="1592988294806">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="581" y="201" width="758" height="638" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592240904637" />
+    <state x="581" y="201" width="758" height="638" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592988294806" />
     <state x="806" y="170" key="ftp.server.browser" timestamp="1591867146716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
