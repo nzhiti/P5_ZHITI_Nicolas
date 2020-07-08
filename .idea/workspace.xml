@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c972968-79d2-458d-ad53-063bfdec539a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/assets/css/pages/_order.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/assets/js/Components/confirmedOrder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/confirmedOrder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/css/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/base/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/css/layouts/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/layouts/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/css/layouts/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/layouts/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/css/layouts/_topbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/layouts/_topbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/css/pages/_all.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/pages/_all.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/css/utils/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/utils/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/css/utils/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/utils/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Components/procceedOrder.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Components/procceedOrder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Services/CartService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Services/CartService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.README" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +94,7 @@
       <workItem from="1593700125225" duration="10000" />
       <workItem from="1594138132638" duration="369000" />
       <workItem from="1594145729700" duration="599000" />
-      <workItem from="1594193756890" duration="23376000" />
+      <workItem from="1594193756890" duration="23465000" />
     </task>
     <servers />
   </component>
@@ -131,6 +110,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Options/0.0.1920.1040@0.0.1920.1040" timestamp="1591867162469" />
+    <state x="720" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594220249188">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="720" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594220249188" />
     <state x="595" y="292" key="EditFileWatcherDialog" timestamp="1588942290520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
