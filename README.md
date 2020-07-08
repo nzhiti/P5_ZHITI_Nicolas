@@ -5,4 +5,6 @@ Pour lancer le projet entrez les commandes suivantes dans un terminal :
 
 Dans le dossier backend : node server
 
-Dans le dossier frontend : npm start
+Dans le dossier frontend : npm install puis npm start
+
+Merci
