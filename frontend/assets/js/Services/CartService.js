@@ -36,14 +36,17 @@ class CartService {
     }
 
     // On envoie les produits contenus dans le panier au serveur avec l'objet contact
-    postTeddies(reqBody) {
-        return ApiService.postCarts('teddies' , reqBody);
+    async postTeddies(reqBody) {
+        let response = await ApiService.postCarts('teddies' , reqBody);
+        return response;
     }
-    postCameras(reqBody) {
-        return ApiService.postCarts('cameras' , reqBody);
+    async postCameras(reqBody) {
+        let response = await ApiService.postCarts('cameras' , reqBody);
+        return response;
     }
-    postFurnitures(reqBody) {
-        return ApiService.postCarts('furniture' , reqBody);
+    async postFurnitures(reqBody) {
+        let response = await ApiService.postCarts('furniture' , reqBody);
+        return response;
     }
 }
 

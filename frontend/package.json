@@ -9,6 +9,7 @@
     "bootstrap": "^4.4.1",
     "fontawesome": "^5.6.3",
     "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11"
   },

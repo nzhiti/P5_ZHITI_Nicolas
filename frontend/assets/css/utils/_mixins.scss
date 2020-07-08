@@ -5,3 +5,9 @@
 @mixin shadow($color) {
   box-shadow: 0px 3px 6px $color;
 }
+
+@mixin magnet($color , $shadowColor) {
+  @include shadow($shadowColor);
+  border-radius: 20px;
+  background: $color;
+}

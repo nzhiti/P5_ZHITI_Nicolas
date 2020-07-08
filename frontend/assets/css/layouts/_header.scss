@@ -15,5 +15,24 @@
     top: 50%;
     transform: translateY(-50%);
     right: 0;
+    & i {
+      background: linear-gradient(to right, $purple 50%, $orange 50%);
+      background-size: 200% 100%;
+      background-position:right bottom;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color:transparent;
+      transition: all ease 1s;
+      &:hover {
+        background: linear-gradient(to right, $purple 50%, $orange 50%);
+        background-size: 200% 100%;
+        background-position:left bottom;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color:transparent;
+      }
+    }
   }
 }

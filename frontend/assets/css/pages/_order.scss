@@ -1,0 +1,22 @@
+.order--magnet {
+  color: $red;
+  display: none;
+  & ul {
+    list-style: none;
+    display: block;
+  }
+  &-number {
+    &-iterate {
+      & > li {
+        border-right: 2px solid $red;
+        padding: 0 5px 0 5px;
+        &:last-child {
+          border: none;
+        }
+      }
+    }
+  }
+  &-error {
+    display: flex;
+  }
+}

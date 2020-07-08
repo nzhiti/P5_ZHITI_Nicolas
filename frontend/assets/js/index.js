@@ -13,5 +13,6 @@ function toggleDiv(productName) {
     caretDown.classList.toggle('d-block');
 }
 
-
-
+let footerHeight = document.querySelector('.footer').offsetHeight;
+let mainDiv = document.querySelector('.container');
+mainDiv.style.paddingBottom = footerHeight + 'px';

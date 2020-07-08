@@ -6,7 +6,10 @@ a, a:visited, a:focus, a:active, a:hover {
 
 body {
   background: #f3e9f1 !important;
-  position: relative !important;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
 }
 
 html, body {
@@ -489,6 +492,25 @@ html, body {
   transform: translateY(-50%);
   right: 0;
 }
+.header--checkout i {
+  background: linear-gradient(to right, #9d66d6 50%, #cc7f56 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all ease 1s;
+}
+.header--checkout i:hover {
+  background: linear-gradient(to right, #9d66d6 50%, #cc7f56 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .products {
   color: #4f3143;
@@ -535,6 +557,10 @@ html, body {
   background: #f3e9f1;
   color: #cc7f56;
   font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 .footer--brand-img img {
   height: 80px;
@@ -544,10 +570,14 @@ html, body {
     height: 150px;
   }
 }
+.footer--social a:hover {
+  animation: rotate ease-in-out 600ms forwards;
+}
 .footer--copyright {
   background: #4f3143;
   color: #cc7f56;
   font-size: 12px;
+  height: 5vh;
 }
 @media all and (min-width: 768px) {
   .footer--copyright {
@@ -555,9 +585,30 @@ html, body {
   }
 }
 
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    color: #ffb733;
+  }
+  100% {
+    transform: scale(1) rotate(360deg);
+    color: #cc7f56;
+  }
+}
 .topbar {
   background: #4f3143;
   color: orange;
+  height: 5vh;
+}
+.topbar--social i {
+  transition: all ease-in-out 300ms;
+}
+.topbar--social i:hover {
+  color: #9d66d6;
 }
 
 .products {
@@ -566,6 +617,35 @@ html, body {
 
 .orange {
   color: #cc7f56;
+}
+
+.brown {
+  color: #4f3143;
+}
+
+.magnet {
+  box-shadow: 0px 3px 6px #4f3143;
+  border-radius: 20px;
+  background: #cc7f56;
+}
+
+.order--magnet {
+  color: #32050e;
+  display: none;
+}
+.order--magnet ul {
+  list-style: none;
+  display: block;
+}
+.order--magnet-number-iterate > li {
+  border-right: 2px solid #32050e;
+  padding: 0 5px 0 5px;
+}
+.order--magnet-number-iterate > li:last-child {
+  border: none;
+}
+.order--magnet-error {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */

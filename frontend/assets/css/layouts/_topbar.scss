@@ -1,4 +1,13 @@
 .topbar {
   background: $brown;
   color: orange;
+  height: 5vh;
+  &--social {
+    & i {
+      transition: all ease-in-out 300ms;
+      &:hover {
+        color: $purple;
+      }
+    }
+  }
 }

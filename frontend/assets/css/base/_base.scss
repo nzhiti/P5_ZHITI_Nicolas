@@ -5,5 +5,8 @@ a , a:visited, a:focus, a:active, a:hover {
 
 body {
   background: $bgcolor !important;
-  position: relative !important;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
 }
