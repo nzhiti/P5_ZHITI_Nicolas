@@ -2,9 +2,6 @@ import ProductsService from "../Services/ProductsService.js";
 import Camera from "../Models/cameras.js";
 import CartService from "../Services/CartService.js";
 
-// Création d'un nouveau camera à partir du model
-
-
 
 // Création du template HTML
 const $template = document.querySelector('#cameras');

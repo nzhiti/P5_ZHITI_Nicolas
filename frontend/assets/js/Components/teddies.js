@@ -2,9 +2,6 @@ import ProductsService from "../Services/ProductsService.js";
 import Teddy from "../Models/teddies.js";
 import CartService from "../Services/CartService.js";
 
-// Création d'un nouveau teddy à partir du model
-
-
 
 // Création du template HTML
 const $template = document.querySelector('#teddies');

@@ -10,3 +10,7 @@ body {
   padding: 0;
   position: relative;
 }
+
+input , textarea , select {
+  outline: none;
+}

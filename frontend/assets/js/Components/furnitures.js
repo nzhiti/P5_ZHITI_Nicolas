@@ -2,10 +2,6 @@ import ProductsService from "../Services/ProductsService.js";
 import Furnitures from "../Models/furnitures.js";
 import CartService from "../Services/CartService.js";
 
-// Création d'un nouveau furniture à partir du model
-
-
-
 // Création du template HTML
 const $template = document.querySelector('#furnitures');
 const content = $template.content;

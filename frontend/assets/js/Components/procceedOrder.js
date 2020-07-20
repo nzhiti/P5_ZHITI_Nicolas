@@ -5,13 +5,6 @@ let form = document.querySelector('#cartForm'); // Récupération du form
 
 // Initialisation des variables au scope global
 let cart = cartService.getCart();
-let teddyCartArray = [];
-let cameraCartArray = [];
-let furnitureCartArray = [];
-let postTeddies = [];
-let postCameras = [];
-let postFurnitures = [];
-let contact = {};
 
 // Création d'un formObject pour récupérer les valeurs du form & attribution au model contact
 function getFormObject() {
@@ -24,118 +17,122 @@ function getFormObject() {
             address: formData.get('address'),
             email: formData.get('email')
         };
-        contact = new contactObject(data);
+        return new contactObject(data);
     } else {
         console.log('Impossible de récupérer les informations du formulaire')
     }
-
 }
-
 // On trie les commandes pour dissocier les produits car l'API du back gère les requêtes POST par produit
-function sortCartArray() {
+function sortProductsInCartArray() {
     if (cart) {
-        teddyCartArray = cart.filter((product) => {
+        let teddyArray = cart.filter((product) => {
             return product.productName === 'teddies'
         });
-        cameraCartArray = cart.filter((product) => {
+        let cameraArray = cart.filter((product) => {
             return product.productName === 'cameras'
         });
-        furnitureCartArray = cart.filter((product) => {
+        let furnitureArray = cart.filter((product) => {
             return product.productName === 'furniture'
         });
+        return [teddyArray, cameraArray, furnitureArray];
     } else {
         console.log('Impossible de récupérer le panier depuis le localStorage');
     }
-
 }
+
 
 // On récupère l'Id des différents produits triés
-function getIdOfArrays() {
-
-    if (teddyCartArray) {
-        postTeddies = teddyCartArray.map((teddy) => {
+function getIdOfProducts() {
+    let teddyArray, cameraArray, furnitureArray;
+    [teddyArray, cameraArray, furnitureArray] = sortProductsInCartArray();
+    let arrayOfProductsId = [];
+    if (Array.isArray(teddyArray) && teddyArray.length) {
+        let teddiesId = teddyArray.map((teddy) => {
             return teddy._id;
         });
+        arrayOfProductsId.push(teddiesId);
+    } else {
+        arrayOfProductsId.push([]);
     }
 
-    if (cameraCartArray) {
-        postCameras = cameraCartArray.map((camera) => {
+    if (Array.isArray(cameraArray) && cameraArray.length) {
+        let camerasId = cameraArray.map((camera) => {
             return camera._id;
         });
+        arrayOfProductsId.push(camerasId);
+    } else {
+        arrayOfProductsId.push([]);
     }
 
-    if (furnitureCartArray) {
-        postFurnitures = furnitureCartArray.map((furniture) => {
+    if (Array.isArray(furnitureArray) && furnitureArray.length) {
+        let furnituresId = furnitureArray.map((furniture) => {
             return furniture._id;
         });
+        arrayOfProductsId.push(furnituresId);
+    } else {
+        arrayOfProductsId.push([]);
     }
-
+    return arrayOfProductsId;
 }
 
-// Création du body de la requête post pour les différents produits contenant un object contact et un array d'id de produtis
-async function promiseOfPostTeddies() {
-    if (Array.isArray(teddyCartArray) && teddyCartArray.length) {
+// On post les produits avec leur Id et un object contact
+async function postProducts() {
+    let [teddyId, cameraId, furnitureId] = getIdOfProducts();
+    console.log(teddyId, cameraId, furnitureId);
+    let arrayOfOrders = [];
+    if(Array.isArray(teddyId) && teddyId.length) {
+        let contact = getFormObject();
         let reqBody = {
             contact,
-            products: postTeddies
+            products: teddyId
         };
         let teddyOrder = await cartService.postTeddies(reqBody);
-        return teddyOrder;
+        arrayOfOrders.push(teddyOrder);
     } else {
-        console.log('Aucun ourson dans le panier')
+        console.log("no teddies");
     }
-}
 
-async function promiseOfPostCameras() {
-    if (Array.isArray(cameraCartArray) && cameraCartArray.length) {
+    if (Array.isArray(cameraId) && cameraId.length) {
+        let contact = getFormObject();
         let reqBody = {
             contact,
-            products: postCameras
+            products: cameraId
         };
         let cameraOrder = await cartService.postCameras(reqBody);
-        return cameraOrder;
+        arrayOfOrders.push(cameraOrder);
     } else {
-        console.log('Aucune camera dans le panier');
+        console.log("no cameras");
     }
-}
-
-async function promiseOfPostFurnitures() {
-    if (Array.isArray(furnitureCartArray) && furnitureCartArray.length) {
+    if (Array.isArray(furnitureId) && furnitureId.length) {
+        let contact = getFormObject();
         let reqBody = {
             contact,
-            products: postFurnitures
+            products: furnitureId
         };
         let furnitureOrder = await cartService.postFurnitures(reqBody);
-        return furnitureOrder;
+        arrayOfOrders.push(furnitureOrder);
     } else {
-        console.log('Aucun meuble dans le panier')
+        console.log("no furnitures");
     }
-}
+    return arrayOfOrders;
 
-// Résolution de toutes les promesses des requêtes POST en une fois plutôt que simultanément & ajout des commandes au local storage
-function getOrderId() {
-    let conditionnalArray = [];
-    if (Array.isArray(teddyCartArray) && teddyCartArray.length) {
-        conditionnalArray.push(promiseOfPostTeddies());
-    }
-    if (Array.isArray(cameraCartArray) && cameraCartArray.length) {
-        conditionnalArray.push(promiseOfPostCameras());
-    }
-    if (Array.isArray(furnitureCartArray) && furnitureCartArray.length) {
-        conditionnalArray.push(promiseOfPostFurnitures());
-    }
-    Promise.all(conditionnalArray).then(orders => {
-        console.log(orders);
-        localStorage.setItem('order', JSON.stringify(orders));
-        window.location.href = "http://localhost:8080/confirmedOrder.html";
-    })
+}
+// Résolution de la promesse suite au post des produits et peuplage du localstorage des orders
+function resolveOrders() {
+    postProducts().then(
+        (orders) => {
+            localStorage.setItem('order', JSON.stringify(orders))
+        }
+    );
 }
 
 // Soumission du form
 form.addEventListener('submit', (event) => {
     event.preventDefault();
-    getFormObject();
-    sortCartArray();
-    getIdOfArrays();
-    getOrderId();
+    sortProductsInCartArray();
+    getIdOfProducts();
+    resolveOrders();
+    setTimeout( () => {
+        window.location.href = "http://localhost:8080/confirmedOrder.html";
+    },200);
 });
