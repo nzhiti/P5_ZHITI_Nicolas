@@ -16,13 +16,25 @@ async function drawCart() {
         let productDetail = await ProductsService.getSingleProduct(product.productName, product._id);
 
         $singleProductDiv.querySelector('.productImg').setAttribute('src', productDetail.imageUrl);
-        $singleProductDiv.querySelector('.productOption').innerText = product.option;
+        $singleProductDiv.querySelector('.productQuantity').innerText = product.quantity;
         $singleProductDiv.querySelector('.productDesc').innerText = productDetail.description;
 
         // Remove button
         let removeBtn = $singleProductDiv.querySelector('.cart--wrap-magnet-single-remove');
         removeBtn.addEventListener('click', () => {
             removeItemFromCart(product._id, product.option)
+        });
+
+        // Quantity buttons
+        let quantityUpBtn = $singleProductDiv.querySelector('.quantityUpBtn');
+        let quantityDownBtn = $singleProductDiv.querySelector('.quantityDownBtn');
+
+        quantityDownBtn.addEventListener( 'click', () => {
+            removeItemFromCart(product._id, product.option);
+        });
+        quantityUpBtn.addEventListener( 'click' , () => {
+            cartService.add(product._id, product.option, product.productName);
+            drawCart();
         });
 
         // Ajout des clones dans le dom

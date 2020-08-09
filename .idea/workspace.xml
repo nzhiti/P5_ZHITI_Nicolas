@@ -3,7 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="4c972968-79d2-458d-ad53-063bfdec539a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/css/layouts/_product-container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/layouts/_product-container.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/css/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/components/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Components/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Components/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Components/procceedOrder.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Components/procceedOrder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Models/CartObject.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Models/CartObject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Services/ApiService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Services/ApiService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Services/CartService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Services/CartService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/cart.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,9 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -48,6 +57,19 @@
       <recent name="E:\Mes Documents\Projets Openclassrooms\Projet 5\Site\frontend\assets\js\Models" />
       <recent name="E:\Mes Documents\Projets Openclassrooms\Projet 5\Site\frontend\assets\js" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="run" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="run" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile.run" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -96,7 +118,21 @@
       <workItem from="1594138132638" duration="369000" />
       <workItem from="1594145729700" duration="599000" />
       <workItem from="1594193756890" duration="24407000" />
-      <workItem from="1594281336700" duration="178000" />
+      <workItem from="1594281336700" duration="4748000" />
+      <workItem from="1594289909723" duration="2267000" />
+      <workItem from="1594647956936" duration="350000" />
+      <workItem from="1594648517854" duration="602000" />
+      <workItem from="1594821746468" duration="21000" />
+      <workItem from="1595227528245" duration="9919000" />
+      <workItem from="1595532375894" duration="3000" />
+      <workItem from="1595573797042" duration="1632000" />
+      <workItem from="1595576090018" duration="2018000" />
+      <workItem from="1595594056997" duration="19000" />
+      <workItem from="1596548212875" duration="598000" />
+      <workItem from="1596639575812" duration="9458000" />
+      <workItem from="1596697273667" duration="4673000" />
+      <workItem from="1596900162398" duration="123000" />
+      <workItem from="1596979048138" duration="8288000" />
     </task>
     <servers />
   </component>
@@ -144,10 +180,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593011865273" />
-    <state x="581" y="201" width="758" height="638" key="find.popup" timestamp="1594206078297">
+    <state x="581" y="201" width="758" height="638" key="find.popup" timestamp="1596982774812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="581" y="201" width="758" height="638" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594206078297" />
+    <state x="581" y="201" width="758" height="638" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596982774812" />
     <state x="806" y="170" key="ftp.server.browser" timestamp="1591867146716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

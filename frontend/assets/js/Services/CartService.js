@@ -20,16 +20,24 @@ class CartService {
     add(productId, option, productName) {
         const cartObject = new CartObject(productId, option, productName);
         console.log(`L'object ${productName} portant l'id ${productId} a bien été ajouté au panier avec sa personnalisation ${option}`);
-        this.cart.push(cartObject);
+        let productAlreadyInCart = this.cart.find(product => product._id === productId);
+        if(productAlreadyInCart) {
+           productAlreadyInCart.quantity++;
+        } else {
+            cartObject.quantity = 1;
+            this.cart.push(cartObject);
+        }
         localStorage.setItem( 'cart' , JSON.stringify(this.cart));
     }
 
     // Suppresion d'un produit du panier
     remove(productId , productOption) {
         for( let i = 0; i < this.cart.length; i++) {
-            if(this.cart[i]._id === productId && this.cart[i].option === productOption) {
+            if(this.cart[i]._id === productId && this.cart[i].quantity === 1) {
                 this.cart.splice(i , 1);
                 i--;
+            } else if(this.cart[i]._id === productId && this.cart[i].quantity > 1) {
+                this.cart[i].quantity--;
             }
         }
         localStorage.setItem( 'cart' , JSON.stringify(this.cart));

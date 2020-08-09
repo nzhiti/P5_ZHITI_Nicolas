@@ -78,7 +78,6 @@ function getIdOfProducts() {
 // On post les produits avec leur Id et un object contact
 async function postProducts() {
     let [teddyId, cameraId, furnitureId] = getIdOfProducts();
-    console.log(teddyId, cameraId, furnitureId);
     let arrayOfOrders = [];
     if(Array.isArray(teddyId) && teddyId.length) {
         let contact = getFormObject();
@@ -115,7 +114,6 @@ async function postProducts() {
         console.log("no furnitures");
     }
     return arrayOfOrders;
-
 }
 // Résolution de la promesse suite au post des produits et peuplage du localstorage des orders
 function resolveOrders() {

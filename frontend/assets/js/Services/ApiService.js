@@ -4,29 +4,27 @@ class ApiService {
      * @param productName
      * @returns {Promise<void>}
      */
-    async getProducts(productName){
+    getProducts(productName) {
         const url = 'http://localhost:3000/api/'+productName;
-        let data = await (await (fetch(url)
+        let data = fetch(url)
                 .then(response => {
                     return response.json();
                 })
                 .catch(error => {
                     console.log('Error: ' + error)
-                })
-        ));
-        return data
+                });
+        return data;
     }
 
-    async getSingleProduct(productName , id){
+    getSingleProduct(productName , id){
         const url = 'http://localhost:3000/api/'+productName+'/'+id;
-        let data = (await (fetch(url)
+        let data = fetch(url)
                 .then(response => {
                     return response.json();
                 })
                 .catch(error => {
                     console.log('Error: ' + error)
-                })
-        ));
+                });
         return data
     }
 
@@ -44,21 +42,18 @@ class ApiService {
             headers: {
                 'Content-Type': 'application/json'
             },
-            redirect: 'follow',
-            referrerPolicy: 'no-referrer',
             body: JSON.stringify(reqBody)
         };
 
         //fetch
-        let data = (await (fetch(url , action).then(
+        let data = fetch(url , action).then(
             response => {
                 return response.json();
             }).catch(
                 error => {
                     console.log('Erreur : ' + error);
                 }
-            )
-        ));
+            );
         return data;
     }
 
