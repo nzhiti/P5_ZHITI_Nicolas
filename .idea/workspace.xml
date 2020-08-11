@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c972968-79d2-458d-ad53-063bfdec539a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/assets/js/Services/FormValidationService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/css/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/components/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Components/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Components/cart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/assets/js/Components/procceedOrder.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Components/procceedOrder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Models/CartObject.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Models/CartObject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Services/ApiService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Services/ApiService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Services/CartService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Services/CartService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/cart.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +125,8 @@
       <workItem from="1596639575812" duration="9458000" />
       <workItem from="1596697273667" duration="4673000" />
       <workItem from="1596900162398" duration="123000" />
-      <workItem from="1596979048138" duration="8288000" />
+      <workItem from="1596979048138" duration="11338000" />
+      <workItem from="1597125334971" duration="5318000" />
     </task>
     <servers />
   </component>

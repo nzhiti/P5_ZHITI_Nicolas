@@ -1,5 +1,6 @@
 import contactObject from "../Models/contactObject.js";
 import cartService from "../Services/CartService.js";
+import FormValidationService from "../Services/FormValidationService.js";
 
 let form = document.querySelector('#cartForm'); // Récupération du form
 
@@ -130,7 +131,5 @@ form.addEventListener('submit', (event) => {
     sortProductsInCartArray();
     getIdOfProducts();
     resolveOrders();
-    setTimeout( () => {
-        window.location.href = "http://localhost:8080/confirmedOrder.html";
-    },200);
+    FormValidationService.validateForm(getFormObject()); // Validation & redirection
 });
