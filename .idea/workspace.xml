@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c972968-79d2-458d-ad53-063bfdec539a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/assets/js/Services/FormValidationService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Components/procceedOrder.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Components/procceedOrder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Services/FormValidationService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Services/FormValidationService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +124,7 @@
       <workItem from="1596697273667" duration="4673000" />
       <workItem from="1596900162398" duration="123000" />
       <workItem from="1596979048138" duration="11338000" />
-      <workItem from="1597125334971" duration="5318000" />
+      <workItem from="1597125334971" duration="10213000" />
     </task>
     <servers />
   </component>
