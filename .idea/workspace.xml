@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4c972968-79d2-458d-ad53-063bfdec539a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/css/components/_animation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/components/_animation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/assets/js/Components/procceedOrder.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Components/procceedOrder.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/assets/js/Services/FormValidationService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/assets/js/Services/FormValidationService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +128,7 @@
       <workItem from="1596697273667" duration="4673000" />
       <workItem from="1596900162398" duration="123000" />
       <workItem from="1596979048138" duration="11338000" />
-      <workItem from="1597125334971" duration="10213000" />
+      <workItem from="1597125334971" duration="16031000" />
     </task>
     <servers />
   </component>
@@ -180,10 +184,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="170" key="ftp.server.browser/0.0.1920.1040@0.0.1920.1040" timestamp="1591867146716" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1591867023953">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1597144074598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1591867023953" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597144074598" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589990306040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

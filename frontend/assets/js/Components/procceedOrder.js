@@ -131,5 +131,11 @@ form.addEventListener('submit', (event) => {
     sortProductsInCartArray();
     getIdOfProducts();
     resolveOrders();
-    FormValidationService.validateForm(getFormObject()); // Validation & redirection
+    let formIsValid = FormValidationService.validateForm(getFormObject());
+    if(formIsValid) {
+        setTimeout(() => {
+            window.location.href = "http://localhost:8080/confirmedOrder.html";
+        }, 200);
+    }
 });
+
